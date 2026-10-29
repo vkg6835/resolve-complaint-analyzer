@@ -1,0 +1,16 @@
+.venv/
+venv/
+__pycache__/
+.pytest_cache/
+*.pyc
+.env
+.env.*
+!.env.example
+data/*.sqlite3*
+data/banking77/.cache/
+data/banking77/.gitattributes
+models/minilm/.cache/
+tmp/
+*.log
+.DS_Store
+Thumbs.db
