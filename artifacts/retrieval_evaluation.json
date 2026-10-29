@@ -1,0 +1,224 @@
+{
+  "embedding_model": "all-MiniLM-L6-v2 (ONNX int8)",
+  "model_revision": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+  "model_url": "https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2",
+  "model_license": "Apache 2.0",
+  "dimensions": 384,
+  "index_count": 1443,
+  "query_split": "Official test; no test text included in the retrieval index",
+  "tfidf": {
+    "nearest_intent_accuracy": 0.8604166666666667,
+    "intent_hit_at_3": 0.9395833333333333,
+    "count": 480
+  },
+  "minilm": {
+    "nearest_intent_accuracy": 0.9208333333333333,
+    "intent_hit_at_3": 0.9708333333333333,
+    "count": 480
+  },
+  "clusters": [
+    {
+      "id": 1,
+      "size": 239,
+      "top_intents": [
+        [
+          "card_not_working",
+          83
+        ],
+        [
+          "lost_or_stolen_card",
+          70
+        ],
+        [
+          "card_swallowed",
+          52
+        ]
+      ],
+      "terms": [
+        "what",
+        "atm",
+        "working",
+        "how",
+        "get",
+        "work",
+        "help",
+        "stolen"
+      ],
+      "examples": [
+        "I can't find my card!  What should I do?",
+        "help, lost my card",
+        "I think my card is lost.  What do I do?"
+      ]
+    },
+    {
+      "id": 2,
+      "size": 189,
+      "top_intents": [
+        [
+          "pending_transfer",
+          61
+        ],
+        [
+          "transfer_not_received_by_recipient",
+          58
+        ],
+        [
+          "balance_not_updated_after_bank_transfer",
+          55
+        ]
+      ],
+      "terms": [
+        "long",
+        "how",
+        "take",
+        "does",
+        "yet",
+        "will",
+        "pending",
+        "transfers"
+      ],
+      "examples": [
+        "How long will it take for my transfer to arrive?",
+        "How long do transfers take, mine just says pending?",
+        "How long should it take for a transfer to go through? I have been waiting a while."
+      ]
+    },
+    {
+      "id": 3,
+      "size": 280,
+      "top_intents": [
+        [
+          "Refund_not_showing_up",
+          136
+        ],
+        [
+          "transaction_charged_twice",
+          123
+        ],
+        [
+          "card_payment_not_recognised",
+          19
+        ]
+      ],
+      "terms": [
+        "refund",
+        "charged",
+        "account",
+        "statement",
+        "twice",
+        "transaction",
+        "but",
+        "charge"
+      ],
+      "examples": [
+        "my refund has not hit my account yet",
+        "I received a refund, however I cannot see it in my account",
+        "I have received my statement but I do not see my refund, why is that?"
+      ]
+    },
+    {
+      "id": 4,
+      "size": 304,
+      "top_intents": [
+        [
+          "failed_transfer",
+          109
+        ],
+        [
+          "balance_not_updated_after_bank_transfer",
+          81
+        ],
+        [
+          "pending_transfer",
+          63
+        ]
+      ],
+      "terms": [
+        "account",
+        "but",
+        "pending",
+        "transferred",
+        "still",
+        "what",
+        "hasn't",
+        "did"
+      ],
+      "examples": [
+        "My transfer has not arrived.",
+        "Can you tell me why the transfer isn't showing up on my account?",
+        "I completed a transfer that isn't showing up on my account."
+      ]
+    },
+    {
+      "id": 5,
+      "size": 334,
+      "top_intents": [
+        [
+          "pending_card_payment",
+          119
+        ],
+        [
+          "card_payment_not_recognised",
+          117
+        ],
+        [
+          "transfer_not_received_by_recipient",
+          35
+        ]
+      ],
+      "terms": [
+        "pending",
+        "there",
+        "app",
+        "didn't",
+        "still",
+        "what",
+        "through",
+        "make"
+      ],
+      "examples": [
+        "The payment on my card shows as pending.",
+        "Why is the payment from my card still pending?",
+        "I have a pending payment on my card.  Why?"
+      ]
+    },
+    {
+      "id": 6,
+      "size": 97,
+      "top_intents": [
+        [
+          "declined_card_payment",
+          80
+        ],
+        [
+          "card_not_working",
+          8
+        ],
+        [
+          "transaction_charged_twice",
+          5
+        ]
+      ],
+      "terms": [
+        "declined",
+        "been",
+        "what",
+        "tried",
+        "today",
+        "know",
+        "please",
+        "new"
+      ],
+      "examples": [
+        "Tell me why my card payment has been declined.",
+        "Do you know why my card payment has been declined?",
+        "Why did my card payment get declined?"
+      ]
+    }
+  ],
+  "kmeans_iterations": 8,
+  "seed": 127,
+  "build_seconds": 14.46,
+  "interpretation": "Hit@3 means a retrieved training query shares the test query's intent. It does not measure causal correctness.",
+  "cluster_method": "Own spherical K-means on L2-normalized MiniLM sentence vectors; k=6 fixed before inspection"
+}

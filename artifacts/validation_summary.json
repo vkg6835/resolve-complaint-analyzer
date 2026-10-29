@@ -1,0 +1,18 @@
+{
+  "date": "2026-10-29",
+  "pytest": {"passed": 21, "seconds": 8.5},
+  "frontend": {
+    "view_templates_checked": 8,
+    "html_escaping": "passed",
+    "scope": "Local view functions exercised with project data; no visual browser verification"
+  },
+  "saved_local_llm_examples": 3,
+  "example_evidence_validation": "All three explanations passed the evidence-ID, exact-quotation and retrieved-citation checks before persistence",
+  "intent_test_macro_f1": 0.932873605868559,
+  "intent_test_accuracy": 0.9333333333333333,
+  "intent_test_count": 480,
+  "benchmark_scope": "Selected 12-category BANKING77 subset",
+  "launcher": "Existing Resolve server correctly detected at http://127.0.0.1:8000",
+  "visual_browser_verification": "Incomplete: automatic approval review stopped Computer Use because it could not verify the current browser URL",
+  "root_cause_accuracy": "Not measured; no verified root-cause labels"
+}

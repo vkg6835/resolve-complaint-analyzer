@@ -1,0 +1,481 @@
+id,text,expected,predicted,correct
+B77-test-00360,I've tried my card a bunch of times and it never worked.,card_not_working,card_not_working,True
+B77-test-00361,I can't get my card to work.,card_not_working,card_not_working,True
+B77-test-00362,My card appears to be broken how can I fix it?,card_not_working,card_not_working,True
+B77-test-00363,How do I know why my card isn't working?,card_not_working,card_not_working,True
+B77-test-00364,My card broke.,card_not_working,card_not_working,True
+B77-test-00365,My card won't work.,card_not_working,card_not_working,True
+B77-test-00366,Why is my card not working?,card_not_working,card_not_working,True
+B77-test-00367,Can you please identify the problem with my bank card?,card_not_working,card_not_working,True
+B77-test-00368,How do I unblock my card using the app?,card_not_working,card_not_working,True
+B77-test-00369,My card does not work,card_not_working,card_not_working,True
+B77-test-00370,How can I get my physical card to work?,card_not_working,card_not_working,True
+B77-test-00371,Can someone assist me by explaining why my card is not working?,card_not_working,card_not_working,True
+B77-test-00372,Help me.  My card doesn't work.,card_not_working,card_not_working,True
+B77-test-00373,Can a card stop working?,card_not_working,card_not_working,True
+B77-test-00374,I think my card is broken,card_not_working,card_not_working,True
+B77-test-00375,Why isn't my card working?,card_not_working,card_not_working,True
+B77-test-00376,My card isn't working anymore.,card_not_working,card_not_working,True
+B77-test-00377,My card was declined today when eating and I need to know what's wrong.,card_not_working,card_not_working,True
+B77-test-00378,My card doesn't work.,card_not_working,card_not_working,True
+B77-test-00379,How can I resolve a problem where my card won't go through at all?,card_not_working,card_not_working,True
+B77-test-00380,My actual card isn't working.,card_not_working,card_not_working,True
+B77-test-00381,Is my card broken?,card_not_working,card_not_working,True
+B77-test-00382,I broke my card,card_not_working,card_not_working,True
+B77-test-00383,My card stopped working,card_not_working,card_not_working,True
+B77-test-00384,"My card is broke, what do I do?",card_not_working,card_not_working,True
+B77-test-00385,"I tried using my card today and it's not working, can you help me?",card_not_working,card_not_working,True
+B77-test-00386,My card stopped working when I use it,card_not_working,card_not_working,True
+B77-test-00387,I can't use my card.,card_not_working,card_not_working,True
+B77-test-00388,Need help with my card. It's not working.,card_not_working,card_not_working,True
+B77-test-00389,I cannot use my card.,card_not_working,card_not_working,True
+B77-test-00390,The card I've got seems to be broken.,card_not_working,card_not_working,True
+B77-test-00391,My card isn't working,card_not_working,card_not_working,True
+B77-test-00392,My card suddenly quit working.,card_not_working,card_not_working,True
+B77-test-00393,I have tried to use my card several times and it does not work.,card_not_working,card_not_working,True
+B77-test-00394,The card I have doesn't work.,card_not_working,card_not_working,True
+B77-test-00395,My card doesn't accept any transaction at all. What's wrong??,card_not_working,card_not_working,True
+B77-test-00396,How can i check if my card is working?,card_not_working,card_not_working,True
+B77-test-00397,Nothing goes through on my card.,card_not_working,card_not_working,True
+B77-test-00398,How do I find out why my card won't work?,card_not_working,card_not_working,True
+B77-test-00399,"Could it be that I deactivated my card, its not working?",card_not_working,card_not_working,True
+B77-test-00440,"My entire gym bag, including my wallet, was stolen out of my locker today. Everything in my wallet is gone - how do I block the card to make it can't be used?",lost_or_stolen_card,lost_or_stolen_card,True
+B77-test-00441,I can't find my card and think it may have been stolen.,lost_or_stolen_card,lost_or_stolen_card,True
+B77-test-00442,"Someone stole my card. I need to report it stolen. I made a police report already, but how do I report it with you?",lost_or_stolen_card,lost_or_stolen_card,True
+B77-test-00443,"I cant find my card, it's gone.",lost_or_stolen_card,lost_or_stolen_card,True
+B77-test-00444,My card is lost! What can I do?,lost_or_stolen_card,lost_or_stolen_card,True
+B77-test-00445,I lost my card,lost_or_stolen_card,lost_or_stolen_card,True
+B77-test-00446,Oh no!  I lost my card!  Help!,lost_or_stolen_card,lost_or_stolen_card,True
+B77-test-00447,"I believe my card has been stolen, what can I do about this situation? It's urgent.",lost_or_stolen_card,lost_or_stolen_card,True
+B77-test-00448,Help! Someone stole my card!,lost_or_stolen_card,lost_or_stolen_card,True
+B77-test-00449,Help.  I have a stolen card!,lost_or_stolen_card,lost_or_stolen_card,True
+B77-test-00450,"card is lost, please help",lost_or_stolen_card,lost_or_stolen_card,True
+B77-test-00451,How do I report my card stolen?,lost_or_stolen_card,lost_or_stolen_card,True
+B77-test-00452,My card is gone I think it was stolen,lost_or_stolen_card,lost_or_stolen_card,True
+B77-test-00453,Is a copy of the police report necessary for completing the report process?,lost_or_stolen_card,transaction_charged_twice,False
+B77-test-00454,I lost my wallet today with all my credit cards. Will you please block the card and send a replacement?,lost_or_stolen_card,lost_or_stolen_card,True
+B77-test-00455,How do I deal with a stolen card?,lost_or_stolen_card,lost_or_stolen_card,True
+B77-test-00456,Can you freeze my card it was stolen,lost_or_stolen_card,lost_or_stolen_card,True
+B77-test-00457,Help!  I can't find my card.,lost_or_stolen_card,lost_or_stolen_card,True
+B77-test-00458,What should I do if I lost my card?,lost_or_stolen_card,lost_or_stolen_card,True
+B77-test-00459,I need help with a lost card,lost_or_stolen_card,lost_or_stolen_card,True
+B77-test-00460,I think my card was stolen.,lost_or_stolen_card,lost_or_stolen_card,True
+B77-test-00461,"Someone stole my wallet earlier today, not sure exactly when, probably on Piccadilly circus. Can you check if there were any attempts to use the card and obviously block it?",lost_or_stolen_card,card_not_working,False
+B77-test-00462,I think I lost my card . I dont know how long it has been missing. Can you see if maybe someone else has been using it?,lost_or_stolen_card,lost_or_stolen_card,True
+B77-test-00463,How can I freeze a stolen card?,lost_or_stolen_card,lost_or_stolen_card,True
+B77-test-00464,What should I do if my card is missing?,lost_or_stolen_card,lost_or_stolen_card,True
+B77-test-00465,My bags were stolen. I need a new card but need to cancel the stolen one.,lost_or_stolen_card,lost_or_stolen_card,True
+B77-test-00466,Somehow I am missing my card.  What should I do?,lost_or_stolen_card,lost_or_stolen_card,True
+B77-test-00467,My card was taken from me,lost_or_stolen_card,card_not_working,False
+B77-test-00468,My card got lost.,lost_or_stolen_card,lost_or_stolen_card,True
+B77-test-00469,Some idiot stole my card.,lost_or_stolen_card,lost_or_stolen_card,True
+B77-test-00470,How do I report my card lost or stolen?,lost_or_stolen_card,lost_or_stolen_card,True
+B77-test-00471,My card is lost! What do I do now?,lost_or_stolen_card,lost_or_stolen_card,True
+B77-test-00472,I'm in Spain and my stuff has been stolen. My card was with it and I need a new one shipped and the old one frozen.,lost_or_stolen_card,lost_or_stolen_card,True
+B77-test-00473,I believe my credit card was stolen.,lost_or_stolen_card,lost_or_stolen_card,True
+B77-test-00474,How do I report a stolen card?,lost_or_stolen_card,lost_or_stolen_card,True
+B77-test-00475,"Somebody has stolen my card, I need help please.",lost_or_stolen_card,lost_or_stolen_card,True
+B77-test-00476,I cannot find my credit card.,lost_or_stolen_card,lost_or_stolen_card,True
+B77-test-00477,Are you able to locate my card?,lost_or_stolen_card,lost_or_stolen_card,True
+B77-test-00478,My card got stolen!,lost_or_stolen_card,lost_or_stolen_card,True
+B77-test-00479,Help me please!  My card was stolen!,lost_or_stolen_card,lost_or_stolen_card,True
+B77-test-00840,"I completed an in country transfer a few days ago and was sure to check the account information several times since the transaction was completed, but the funds are still not available. What is the problem?",transfer_not_received_by_recipient,transfer_not_received_by_recipient,True
+B77-test-00841,My money transfer has not arrived.,transfer_not_received_by_recipient,transfer_not_received_by_recipient,True
+B77-test-00842,I am still waiting for a transaction to be completed,transfer_not_received_by_recipient,transfer_not_received_by_recipient,True
+B77-test-00843,I made a money transaction but the recipient can't see it,transfer_not_received_by_recipient,transfer_not_received_by_recipient,True
+B77-test-00844,I tried to send someone money but they haven't received it.,transfer_not_received_by_recipient,transfer_not_received_by_recipient,True
+B77-test-00845,How long does it take for a transfer to get to a recipient?,transfer_not_received_by_recipient,transfer_not_received_by_recipient,True
+B77-test-00846,How can the recipient see my money transaction?,transfer_not_received_by_recipient,transfer_not_received_by_recipient,True
+B77-test-00847,I transferred money but the recipient says it has not arrived. Why would this be?,transfer_not_received_by_recipient,transfer_not_received_by_recipient,True
+B77-test-00848,The transfer I did hasn't arrived,transfer_not_received_by_recipient,transfer_not_received_by_recipient,True
+B77-test-00849,how long do money transfers take?,transfer_not_received_by_recipient,pending_transfer,False
+B77-test-00850,I transferred some money and it didint arrive,transfer_not_received_by_recipient,transfer_not_received_by_recipient,True
+B77-test-00851,Where is the transfer I started?,transfer_not_received_by_recipient,balance_not_updated_after_bank_transfer,False
+B77-test-00852,transaction failed?,transfer_not_received_by_recipient,failed_transfer,False
+B77-test-00853,"I just finished sending money, but it's not logging on the recipient side.",transfer_not_received_by_recipient,transfer_not_received_by_recipient,True
+B77-test-00854,I completed a money transaction but the recipient hasn't received it,transfer_not_received_by_recipient,transfer_not_received_by_recipient,True
+B77-test-00855,The receipient doesn't see my money transfer.,transfer_not_received_by_recipient,transfer_not_received_by_recipient,True
+B77-test-00856,"I transferred the rent payment for my new place a couple days ago but the landlord says it's not there yet, despite showing up as done on my side. I checked the account number I sent it to and it's definitely correct. Can you please verify if the transaction really went through or not?",transfer_not_received_by_recipient,transfer_not_received_by_recipient,True
+B77-test-00857,I need to find out why my transfer didn't get there.,transfer_not_received_by_recipient,failed_transfer,False
+B77-test-00858,"I've just moved address from a place in Durham to a place in Walton-On-The-Naze.  I have a new landlord at my new house and they haven't got my payment but I know I sent it on time, can you check they got it please?",transfer_not_received_by_recipient,transfer_not_received_by_recipient,True
+B77-test-00859,I sent money.  They haven't received it.,transfer_not_received_by_recipient,transfer_not_received_by_recipient,True
+B77-test-00860,"Hey, I need some help figuring out way my transfer is not complete yet. My Landlord hasn't got the money yet.She should have received it by now.",transfer_not_received_by_recipient,transfer_not_received_by_recipient,True
+B77-test-00861,"The day before yesterday, I performed a transfer which was within this country. It still hasn't gone through. Can you check on that? The account number is definitely correct, as I've checked and double checked.",transfer_not_received_by_recipient,transfer_not_received_by_recipient,True
+B77-test-00862,"I'm having a problem with a money transfer.  I sent some money to a friend a couple of hours ago, and they haven't received it yet.  Why hasn't it gotten to them? How long do transfers need to go through?",transfer_not_received_by_recipient,transfer_not_received_by_recipient,True
+B77-test-00863,I transferred some money but the receiver can't pick it up for some reason.,transfer_not_received_by_recipient,transfer_not_received_by_recipient,True
+B77-test-00864,Where is the transaction I made to a friend?,transfer_not_received_by_recipient,transfer_not_received_by_recipient,True
+B77-test-00865,My friend still hasn't gotten a transaction I made.,transfer_not_received_by_recipient,transfer_not_received_by_recipient,True
+B77-test-00866,Im waiting for my transaction to go through.,transfer_not_received_by_recipient,transfer_not_received_by_recipient,True
+B77-test-00867,I made a transaction and it is taking a very long time to go through.,transfer_not_received_by_recipient,transfer_not_received_by_recipient,True
+B77-test-00868,Is there a reason why my transaction is taking so long?,transfer_not_received_by_recipient,transfer_not_received_by_recipient,True
+B77-test-00869,How long will it take for my transaction to be completed?,transfer_not_received_by_recipient,transfer_not_received_by_recipient,True
+B77-test-00870,I sent some money and the receiver can't access it.,transfer_not_received_by_recipient,transfer_not_received_by_recipient,True
+B77-test-00871,I sent my friend some money a few hours ago but she has not received it yet. She really needs it. How long does this take?,transfer_not_received_by_recipient,transfer_not_received_by_recipient,True
+B77-test-00872,The person I sent money to hasn't gotten it yet!,transfer_not_received_by_recipient,transfer_not_received_by_recipient,True
+B77-test-00873,When will my funds transfer?,transfer_not_received_by_recipient,pending_transfer,False
+B77-test-00874,"How long does it take for transfers to finish?  I sent funds to my pal, and she says that she has not gotten anything.",transfer_not_received_by_recipient,transfer_not_received_by_recipient,True
+B77-test-00875,"How long do transfers need to come through? I sent some money to a friend, she needs it urgently, but seems it's still not there yet after a couple hours.",transfer_not_received_by_recipient,transfer_not_received_by_recipient,True
+B77-test-00876,How long until my friend receives my transaction?,transfer_not_received_by_recipient,transfer_not_received_by_recipient,True
+B77-test-00877,Why hasn't my recipient received their money?,transfer_not_received_by_recipient,transfer_not_received_by_recipient,True
+B77-test-00878,I am still awaiting the completion of the transaction.,transfer_not_received_by_recipient,transfer_not_received_by_recipient,True
+B77-test-00879,I transferred some money but the recipient is having trouble withdrawing.,transfer_not_received_by_recipient,transfer_not_received_by_recipient,True
+B77-test-01080,I have a strange payment in my statement,card_payment_not_recognised,card_payment_not_recognised,True
+B77-test-01081,There is a charge on my card that I did not make,card_payment_not_recognised,card_payment_not_recognised,True
+B77-test-01082,I saw a payment i did not do,card_payment_not_recognised,card_payment_not_recognised,True
+B77-test-01083,There is a payment that is not mine in the app.  Please advise/,card_payment_not_recognised,card_payment_not_recognised,True
+B77-test-01084,An unauthorized payment is in my app,card_payment_not_recognised,card_payment_not_recognised,True
+B77-test-01085,I did not make this card payment.,card_payment_not_recognised,card_payment_not_recognised,True
+B77-test-01086,What should I do if I see a payment I didn't make?,card_payment_not_recognised,card_payment_not_recognised,True
+B77-test-01087,I found an unauthorized card payment,card_payment_not_recognised,card_payment_not_recognised,True
+B77-test-01088,there is a transaction on my account that i didnt make,card_payment_not_recognised,card_payment_not_recognised,True
+B77-test-01089,I don't recall making that payment?,card_payment_not_recognised,card_payment_not_recognised,True
+B77-test-01090,There are some payments with my card that I don't know where they are coming from. Just checked today and it's been since a couple days as well! What to I do? Can I revert this retrospectively? My card needs to be frozen immediately as well!,card_payment_not_recognised,card_payment_not_recognised,True
+B77-test-01091,Has someone accessed my card there are payments I did not make that are showing up on the app.,card_payment_not_recognised,card_payment_not_recognised,True
+B77-test-01092,There are some strange charges on my card that I didn't make from a few days ago.  Is my card stolen and if so should I cancel it?  Will I get refunded the charges?,card_payment_not_recognised,card_payment_not_recognised,True
+B77-test-01093,Why would there be a payment on my account I don't recognize?,card_payment_not_recognised,card_payment_not_recognised,True
+B77-test-01094,I have a payment I didn't do,card_payment_not_recognised,card_payment_not_recognised,True
+B77-test-01095,There is a payment that is not mine.,card_payment_not_recognised,card_payment_not_recognised,True
+B77-test-01096,Can you freeze my account?  I just saw there are transactions on my account that I don't recognize.  How can I fix this?,card_payment_not_recognised,card_payment_not_recognised,True
+B77-test-01097,There is a card payment I do not recognise.,card_payment_not_recognised,card_payment_not_recognised,True
+B77-test-01098,I don't recognise a card payment,card_payment_not_recognised,card_payment_not_recognised,True
+B77-test-01099,Payment i did not do,card_payment_not_recognised,card_payment_not_recognised,True
+B77-test-01100,"Please put a freeze on my card,  I am worried there has been some payments on it and I don't know what for.",card_payment_not_recognised,card_payment_not_recognised,True
+B77-test-01101,I think my statement has a fraudulent charge,card_payment_not_recognised,card_payment_not_recognised,True
+B77-test-01102,"I'm concerned about a payment that has recently been made on my card.  I do not recognize the name that the transaction went to, can you help me?",card_payment_not_recognised,card_payment_not_recognised,True
+B77-test-01103,What should I do to get transactions off of my account if I didn't make them?  My card must have been compromised and I need to freeze it asap!,card_payment_not_recognised,card_payment_not_recognised,True
+B77-test-01104,I have a payment listed in error.,card_payment_not_recognised,card_payment_not_recognised,True
+B77-test-01105,What can I do about some payments on my card I didn't make.  Please put a freeze on my card till we can figure this out.,card_payment_not_recognised,card_payment_not_recognised,True
+B77-test-01106,I'm not familiar with a card payment.,card_payment_not_recognised,card_payment_not_recognised,True
+B77-test-01107,I have an unauthorized transaction on my statement,card_payment_not_recognised,card_payment_not_recognised,True
+B77-test-01108,There is a payment in the App that is not mine.,card_payment_not_recognised,card_payment_not_recognised,True
+B77-test-01109,I don't know where this transaction came from?,card_payment_not_recognised,card_payment_not_recognised,True
+B77-test-01110,I see a charge on my account that I don't recall making. I feel like my account may have been compromised.,card_payment_not_recognised,card_payment_not_recognised,True
+B77-test-01111,"I know I didn't make this payment showing up on my card, I don't remember this person at all.",card_payment_not_recognised,card_payment_not_recognised,True
+B77-test-01112,Somebody used my card to make a purchase,card_payment_not_recognised,card_not_working,False
+B77-test-01113,There's a recent charge on my card that I know I didn't make because I've never seen the name before. Can we investigate this?,card_payment_not_recognised,card_payment_not_recognised,True
+B77-test-01114,Some of my card payments look different than where I purchased products from. Why is that?,card_payment_not_recognised,card_payment_not_recognised,True
+B77-test-01115,There is a strange payment on my statement. What should I do?,card_payment_not_recognised,card_payment_not_recognised,True
+B77-test-01116,I think there has been a purchase made that wasn't by me.,card_payment_not_recognised,card_payment_not_recognised,True
+B77-test-01117,There is a fraudulent charge on my statement.,card_payment_not_recognised,card_payment_not_recognised,True
+B77-test-01118,What is the payment in my account that I did not do?,card_payment_not_recognised,card_payment_not_recognised,True
+B77-test-01119,In my statement there is a payment that is I do not recognize,card_payment_not_recognised,card_payment_not_recognised,True
+B77-test-01600,"My card payment is still on hold, why is it so?",pending_card_payment,pending_card_payment,True
+B77-test-01601,Why is my payment pending?,pending_card_payment,pending_card_payment,True
+B77-test-01602,My card payment is still pending.,pending_card_payment,pending_card_payment,True
+B77-test-01603,How do i finalize a card payment,pending_card_payment,card_payment_not_recognised,False
+B77-test-01604,Why is my card payment showing as pending?,pending_card_payment,pending_card_payment,True
+B77-test-01605,Why has my payment not gone through?,pending_card_payment,pending_card_payment,True
+B77-test-01606,Please help me to know the status of my card payment as its pending since a while.,pending_card_payment,pending_card_payment,True
+B77-test-01607,"I recently made a payment, and it is showing up in my account as ""pending"". What does that mean?",pending_card_payment,pending_card_payment,True
+B77-test-01608,What does it mean by pending payment?,pending_card_payment,pending_card_payment,True
+B77-test-01609,When will my card payment be done pending?,pending_card_payment,pending_card_payment,True
+B77-test-01610,I made this payment days ago so why hasn't it gone through yet?,pending_card_payment,pending_card_payment,True
+B77-test-01611,I am seeing pending from the card payment I made.,pending_card_payment,pending_card_payment,True
+B77-test-01612,My card payment is showing pending.,pending_card_payment,pending_card_payment,True
+B77-test-01613,I bought some stuff this morning but the payment shows as pending,pending_card_payment,pending_card_payment,True
+B77-test-01614,I am waiting for a payment to go through.,pending_card_payment,pending_card_payment,True
+B77-test-01615,How long does an item I bought show as pending?,pending_card_payment,pending_card_payment,True
+B77-test-01616,What is a pending payment?,pending_card_payment,pending_card_payment,True
+B77-test-01617,I would like to know why my purchases from this morning are still pending.,pending_card_payment,pending_card_payment,True
+B77-test-01618,Why is there a pending transaction on my card?,pending_card_payment,pending_card_payment,True
+B77-test-01619,My card payment is pending.,pending_card_payment,pending_card_payment,True
+B77-test-01620,Why is a payment showing up on my card as pending?,pending_card_payment,pending_card_payment,True
+B77-test-01621,I made a purchase and it says it's pending. What does that mean?,pending_card_payment,pending_card_payment,True
+B77-test-01622,How long do card transactions take to clear?,pending_card_payment,card_not_working,False
+B77-test-01623,what does pending mean?,pending_card_payment,pending_card_payment,True
+B77-test-01624,How long will this card payment stay pending?,pending_card_payment,pending_card_payment,True
+B77-test-01625,My payment still hasn't processed!,pending_card_payment,pending_card_payment,True
+B77-test-01626,"I was double charged, and the second charge is showing as ""pending"". How long will it be before I get my money back once the second charge has been refunded?",pending_card_payment,transaction_charged_twice,False
+B77-test-01627,"I have waited 15 days, but my payment still hasn't cleared.",pending_card_payment,pending_card_payment,True
+B77-test-01628,Why would I have a pending payment?,pending_card_payment,pending_card_payment,True
+B77-test-01629,Explain what the pending payment means?,pending_card_payment,pending_card_payment,True
+B77-test-01630,Why are my payments showing pending?,pending_card_payment,pending_card_payment,True
+B77-test-01631,"My card is still pending, I've been waiting a while.",pending_card_payment,pending_card_payment,True
+B77-test-01632,How long does it take for a payment to go thru? I made one a few days ago and it has not been cleared yet.,pending_card_payment,pending_card_payment,True
+B77-test-01633,I bought some things this morning but the payment shows that it is pending,pending_card_payment,pending_card_payment,True
+B77-test-01634,How long does it take to authorise a payment?,pending_card_payment,pending_card_payment,True
+B77-test-01635,I had a payment that I made and it's been some amount of time and would like to know when it's suppose to go though.,pending_card_payment,pending_card_payment,True
+B77-test-01636,What does a pending transaction mean?,pending_card_payment,pending_card_payment,True
+B77-test-01637,I have paid by my card but payment is still its coming as pending. I think there is some issue please check and let me know when the status will complete.,pending_card_payment,pending_card_payment,True
+B77-test-01638,I have a pending payment in my account that I paid a while back ago and it still hasnt gone through. Why would it show pending for so long?,pending_card_payment,pending_card_payment,True
+B77-test-01639,I have a pending payment from stuff I bought this morning.,pending_card_payment,pending_card_payment,True
+B77-test-01760,The refund isn't showing up on my account.,Refund_not_showing_up,Refund_not_showing_up,True
+B77-test-01761,My refund is missing from my statement.,Refund_not_showing_up,Refund_not_showing_up,True
+B77-test-01762,"I requested a refund, and never received it. What can I do?",Refund_not_showing_up,Refund_not_showing_up,True
+B77-test-01763,I was supposed to get a purchase refunded but I don't see the money in my account,Refund_not_showing_up,Refund_not_showing_up,True
+B77-test-01764,There's a refund missing from my statement,Refund_not_showing_up,Refund_not_showing_up,True
+B77-test-01765,"I need help. I asked for a refund from a merchant a while ago, but I have not gotten my money back. I keep checking my account, but nothing is showing up. What should I do now?",Refund_not_showing_up,Refund_not_showing_up,True
+B77-test-01766,I am awaiting my refund,Refund_not_showing_up,Refund_not_showing_up,True
+B77-test-01767,How long does it take for a refund?,Refund_not_showing_up,Refund_not_showing_up,True
+B77-test-01768,"Help! I keep checking my account, but my refund is not showing. I requested that a seller refund my money a while back, but there is no money showing in my account. What can you do for me?",Refund_not_showing_up,Refund_not_showing_up,True
+B77-test-01769,Can you tell me why my refund is not showing in my statement?,Refund_not_showing_up,Refund_not_showing_up,True
+B77-test-01770,"I asked for a refund last week but nothing has happened yet, can you help me please?",Refund_not_showing_up,Refund_not_showing_up,True
+B77-test-01771,Why is my refund missing from my  statement?,Refund_not_showing_up,Refund_not_showing_up,True
+B77-test-01772,Still waiting on a refund.,Refund_not_showing_up,Refund_not_showing_up,True
+B77-test-01773,I requested a refund and it is missing.,Refund_not_showing_up,Refund_not_showing_up,True
+B77-test-01774,"Hi, As suggested by you, i have asked the seller to initiate the refund, it has been a week and i haven't received my money. Please advise.",Refund_not_showing_up,Refund_not_showing_up,True
+B77-test-01775,I bought something and returned it and the money from the return isn't in my account.,Refund_not_showing_up,Refund_not_showing_up,True
+B77-test-01776,Do you have any idea on when I will receive my refund? I got my statement and it was not there.,Refund_not_showing_up,Refund_not_showing_up,True
+B77-test-01777,Why isn't a recent refund on my statement?,Refund_not_showing_up,Refund_not_showing_up,True
+B77-test-01778,Where can I see the refund in my account,Refund_not_showing_up,Refund_not_showing_up,True
+B77-test-01779,"i was supposed to get a refund but my balance hasn't changed, why not?",Refund_not_showing_up,Refund_not_showing_up,True
+B77-test-01780,I requested a refund from a merchant days ago but I do not see it in my account.,Refund_not_showing_up,Refund_not_showing_up,True
+B77-test-01781,The refund has not appeared in my account,Refund_not_showing_up,Refund_not_showing_up,True
+B77-test-01782,Did my refund go through? It's not on my statement.,Refund_not_showing_up,Refund_not_showing_up,True
+B77-test-01783,My statement doesn't show that a refund has processed,Refund_not_showing_up,Refund_not_showing_up,True
+B77-test-01784,I requested a refund from a store but it hasn't arrived.,Refund_not_showing_up,Refund_not_showing_up,True
+B77-test-01785,I still haven't seen a refund on my account,Refund_not_showing_up,Refund_not_showing_up,True
+B77-test-01786,I am missing a refund.,Refund_not_showing_up,Refund_not_showing_up,True
+B77-test-01787,My refund doesn't seem to be showing on my statement.,Refund_not_showing_up,Refund_not_showing_up,True
+B77-test-01788,I am not seeing a refund in my statement.,Refund_not_showing_up,Refund_not_showing_up,True
+B77-test-01789,Why can't I see a recent refund in my statement?,Refund_not_showing_up,Refund_not_showing_up,True
+B77-test-01790,"I did what you told me earlier and contacted the seller for a refund directly, but nothing is happening! It's been a week and I still haven't got anything. Please just give me back my money",Refund_not_showing_up,Refund_not_showing_up,True
+B77-test-01791,Where is my refund? I have been checking my account all day.,Refund_not_showing_up,Refund_not_showing_up,True
+B77-test-01792,It's been a week and I have done everything that I was asked to do and still nothing. I have contacted the seller and have not gotten a response. Please understand my frustration and put the money back in my account.,Refund_not_showing_up,Refund_not_showing_up,True
+B77-test-01793,My refund is missing,Refund_not_showing_up,Refund_not_showing_up,True
+B77-test-01794,Why doesn't a return show up im my account from a purchase I made?,Refund_not_showing_up,Refund_not_showing_up,True
+B77-test-01795,I keep checking my bank statements but I don't see a refund that I've requested from a seller. Can you ensure that I receive the refund from the seller?,Refund_not_showing_up,Refund_not_showing_up,True
+B77-test-01796,"I am waiting patiently for a week now for the seller to get back to me and there has been no response, could you please help me further with getting my money back.  Thank you.",Refund_not_showing_up,Refund_not_showing_up,True
+B77-test-01797,I would like some help getting a refund back from a seller. It still isn't showing up on my statement and I requested this a long time ago. I'm not sure why it's not returned yet. Can you assist me in getting this money back?,Refund_not_showing_up,Refund_not_showing_up,True
+B77-test-01798,How long will it take to get my refund,Refund_not_showing_up,Refund_not_showing_up,True
+B77-test-01799,I should have received a refund however it is not showing on my statement,Refund_not_showing_up,Refund_not_showing_up,True
+B77-test-01800,My credit card was declined.,declined_card_payment,declined_card_payment,True
+B77-test-01801,The new card that was just sent to me was declined multiple times yesterday when I tried to use it at a restaurant to pay for my dinner.  I am really disappointed  and embarrassed that my card was denied when I tried to use it to pay for my friend's birthday dinner.,declined_card_payment,declined_card_payment,True
+B77-test-01802,Why was my card payment declined?,declined_card_payment,declined_card_payment,True
+B77-test-01803,I was trying to purchase something at the store today and my card has been declined.  Why has this happened?,declined_card_payment,declined_card_payment,True
+B77-test-01804,"My payment has been declined, I thought this issue was fixed!",declined_card_payment,declined_card_payment,True
+B77-test-01805,My card was declined in a shop,declined_card_payment,declined_card_payment,True
+B77-test-01806,Why did it decline my payment?,declined_card_payment,declined_card_payment,True
+B77-test-01807,My card declined,declined_card_payment,declined_card_payment,True
+B77-test-01808,Can you look at my account ans see why my card was declined,declined_card_payment,declined_card_payment,True
+B77-test-01809,"I was out today looking forward to pay with my new card, turns out the payment just kept getting declined. This is really sad, what's going on?",declined_card_payment,declined_card_payment,True
+B77-test-01810,Why was a transaction on my card declined?,declined_card_payment,declined_card_payment,True
+B77-test-01811,My new card keeps getting declined. I was very excited to use it for the first time today. Why is this doing this?,declined_card_payment,declined_card_payment,True
+B77-test-01812,"My latest payment was declined, I was told everything was back to working order. What happened?",declined_card_payment,declined_card_payment,True
+B77-test-01813,I know I have enough funds in my account but my card payment hasn't worked for some reason. What do I do?,declined_card_payment,declined_card_payment,True
+B77-test-01814,Why doesn't the card payment work,declined_card_payment,declined_card_payment,True
+B77-test-01815,I'm really stuck. I don't know why but my card payment has not gone through.,declined_card_payment,declined_card_payment,True
+B77-test-01816,"I have a card payment that was declined, but why?",declined_card_payment,declined_card_payment,True
+B77-test-01817,Do you know why my card payment did not work?,declined_card_payment,declined_card_payment,True
+B77-test-01818,Something is wrong with my payment account since it has been declined,declined_card_payment,declined_card_payment,True
+B77-test-01819,Why are you declining my payment? Everything was fine.,declined_card_payment,declined_card_payment,True
+B77-test-01820,I don't know why my payment didn't work.,declined_card_payment,declined_card_payment,True
+B77-test-01821,My card payment did not work.,declined_card_payment,declined_card_payment,True
+B77-test-01822,Why is my debit card being declined when I have money?,declined_card_payment,declined_card_payment,True
+B77-test-01823,My card was not accepted.,declined_card_payment,declined_card_payment,True
+B77-test-01824,I have no idea why my card payment did not work.,declined_card_payment,declined_card_payment,True
+B77-test-01825,"My card payment didn't work, can you help?",declined_card_payment,declined_card_payment,True
+B77-test-01826,"My card was rejected at the store for some reason, can you look into this for me?",declined_card_payment,declined_card_payment,True
+B77-test-01827,Please explain why my card was declined?,declined_card_payment,declined_card_payment,True
+B77-test-01828,"Hello, I am facing the issue with my new card as payments are declining again and again. Please help me in this issue.",declined_card_payment,declined_card_payment,True
+B77-test-01829,Do you know why my card payment is declined?,declined_card_payment,declined_card_payment,True
+B77-test-01830,Why was my Payment declined,declined_card_payment,declined_card_payment,True
+B77-test-01831,They declined my card payment.,declined_card_payment,declined_card_payment,True
+B77-test-01832,Why has my card payment been declined?,declined_card_payment,declined_card_payment,True
+B77-test-01833,"I finally got my new card and was very excited to use it today. However, my payment kept declining. What is happening?",declined_card_payment,declined_card_payment,True
+B77-test-01834,My card payment did not complete.,declined_card_payment,declined_card_payment,True
+B77-test-01835,My card didn't work in one of the shops.,declined_card_payment,declined_card_payment,True
+B77-test-01836,Card payment declined?,declined_card_payment,declined_card_payment,True
+B77-test-01837,"I tried using my card and it kept getting declined, Why?",declined_card_payment,declined_card_payment,True
+B77-test-01838,How do you fix  my card payment?,declined_card_payment,declined_card_payment,True
+B77-test-01839,Why do you keep declining my payment? I tried several times already with this card and it's just not working,declined_card_payment,declined_card_payment,True
+B77-test-01840,"I did transfer, why is it pending",pending_transfer,pending_transfer,True
+B77-test-01841,How long for money transfer to show?,pending_transfer,pending_transfer,True
+B77-test-01842,Why is my transfer not done yet?,pending_transfer,pending_transfer,True
+B77-test-01843,I have a pending transfer,pending_transfer,pending_transfer,True
+B77-test-01844,I am waiting for a pending money transfer to process.,pending_transfer,pending_transfer,True
+B77-test-01845,i transfered however its still pending,pending_transfer,pending_transfer,True
+B77-test-01846,I have a transfer that's pending and wanted to know how long it is going to take to process?,pending_transfer,pending_transfer,True
+B77-test-01847,So the transfer finally worked but now it's been pending for quite a long time. How long do you expect me to wait for it? It's quite urgent,pending_transfer,pending_transfer,True
+B77-test-01848,I had made a transfer but its still pending.,pending_transfer,pending_transfer,True
+B77-test-01849,I submitted my transfer but it has been pending for quite a while and I was wondering what takes so long? why hasn't it completed,pending_transfer,pending_transfer,True
+B77-test-01850,How can I speed up a transfer?  Mine is pending.,pending_transfer,pending_transfer,True
+B77-test-01851,How long can an EU transfer take?,pending_transfer,pending_transfer,True
+B77-test-01852,My transfer is still coming up as pending.,pending_transfer,pending_transfer,True
+B77-test-01853,I'm trying to transfer money to another country. It's just pending and not sending. My account details are correct. Please help me.,pending_transfer,pending_transfer,True
+B77-test-01854,My transfer is still pending and I know the account numbers are correct.  Please help.,pending_transfer,pending_transfer,True
+B77-test-01855,"I transferred money yesterday, but it still isn't available?",pending_transfer,balance_not_updated_after_bank_transfer,False
+B77-test-01856,How long does a transfer stay pending?,pending_transfer,pending_transfer,True
+B77-test-01857,How long do transfer pend for?,pending_transfer,pending_transfer,True
+B77-test-01858,Why hasn't my transfer gone through yet?,pending_transfer,failed_transfer,False
+B77-test-01859,When will the transfer go through?,pending_transfer,failed_transfer,False
+B77-test-01860,Please explain why the transfers shows up as pending?,pending_transfer,pending_transfer,True
+B77-test-01861,"I double checked that I have the correct account details , they're right for sure. Transfer is still pending since forever. What should be done now?",pending_transfer,pending_transfer,True
+B77-test-01862,When will my transfer go through?,pending_transfer,failed_transfer,False
+B77-test-01863,What is the cause that the transfer shows as pending?,pending_transfer,pending_transfer,True
+B77-test-01864,When will the transfer be completed?,pending_transfer,transfer_not_received_by_recipient,False
+B77-test-01865,Pending transfer?,pending_transfer,pending_transfer,True
+B77-test-01866,"I would like to know why my payment is still pending, can you help?",pending_transfer,pending_card_payment,False
+B77-test-01867,Someone transferred money to me and it doesn't show,pending_transfer,balance_not_updated_after_bank_transfer,False
+B77-test-01868,How long does a transfer take to be confirmed?,pending_transfer,pending_transfer,True
+B77-test-01869,I made a transfer 12 hours ago. Why is it still listed as pending?,pending_transfer,pending_transfer,True
+B77-test-01870,"Why does my transfer say ""pending""?",pending_transfer,pending_transfer,True
+B77-test-01871,How long can I expect a transfer to pend for?,pending_transfer,pending_transfer,True
+B77-test-01872,For how long will my transfer be pending?,pending_transfer,pending_transfer,True
+B77-test-01873,Transferring money in 2018 to another country shouldn't take this long. My transfer has been pending for too long. I verified my account details are correct.,pending_transfer,pending_transfer,True
+B77-test-01874,Why is a money transfer not showing?,pending_transfer,pending_transfer,True
+B77-test-01875,The transfer is coming up as pending the payment is due today. Will I be charged a fee?,pending_transfer,pending_card_payment,False
+B77-test-01876,I am still waiting for a money transfer to show,pending_transfer,pending_transfer,True
+B77-test-01877,My transfer hasn't gone through yet.,pending_transfer,failed_transfer,False
+B77-test-01878,I am confused as to why my transfer could still be pending.,pending_transfer,pending_transfer,True
+B77-test-01879,How long does it take for a money transfer to show?,pending_transfer,pending_transfer,True
+B77-test-01920,"What do I do if an ATM ""stole"" my card?",card_swallowed,card_swallowed,True
+B77-test-01921,How do I retrieve my card from the machine?,card_swallowed,card_swallowed,True
+B77-test-01922,I was retrieving money and my card wouldn't remove.,card_swallowed,declined_card_payment,False
+B77-test-01923,What do I do since the machine swallowed my card. I need one.,card_swallowed,card_swallowed,True
+B77-test-01924,HOw do I get my card back after the ATM has pulled it in?,card_swallowed,card_swallowed,True
+B77-test-01925,Atm took my card,card_swallowed,card_swallowed,True
+B77-test-01926,Is there a way I can get my ATM card back from the machine?,card_swallowed,card_swallowed,True
+B77-test-01927,I think the atm ate my card.,card_swallowed,card_swallowed,True
+B77-test-01928,The ATM didn't give me the card back!,card_swallowed,card_swallowed,True
+B77-test-01929,How can I get my card out of the damn ATM?,card_swallowed,card_swallowed,True
+B77-test-01930,The atm won't give my card back!,card_swallowed,card_swallowed,True
+B77-test-01931,How can I get my card back out?,card_swallowed,card_swallowed,True
+B77-test-01932,The ATM machine stole my card.,card_swallowed,card_swallowed,True
+B77-test-01933,The ATM at Metro bank on High St. Kensington swallowed my card. How do I get it back?,card_swallowed,card_swallowed,True
+B77-test-01934,My ATM got stuck and I'm not sure what to do.,card_swallowed,card_swallowed,True
+B77-test-01935,The ATM ate my card.,card_swallowed,card_swallowed,True
+B77-test-01936,The ATM won't give me my card back.,card_swallowed,card_swallowed,True
+B77-test-01937,My card was confiscated by an ATM. How do I get my card back?,card_swallowed,card_swallowed,True
+B77-test-01938,What do I do if the ATM ate my card?,card_swallowed,card_swallowed,True
+B77-test-01939,ATM still has my card,card_swallowed,card_swallowed,True
+B77-test-01940,What do I do if an ATM ate my card?,card_swallowed,card_swallowed,True
+B77-test-01941,What happens if the ATM doesn't give me back my card?,card_swallowed,card_swallowed,True
+B77-test-01942,I can't pull my card out of the ATM. Help me.,card_swallowed,card_swallowed,True
+B77-test-01943,I have a problem!  The ATM stole my card!,card_swallowed,card_swallowed,True
+B77-test-01944,Why would an ATM swallow my card?,card_swallowed,card_swallowed,True
+B77-test-01945,My card was taken by the ATM.,card_swallowed,card_swallowed,True
+B77-test-01946,Help!  The atm won't give me my card back.,card_swallowed,card_swallowed,True
+B77-test-01947,The stupid machine just swallowed my card!! I need a new one ASAP,card_swallowed,card_swallowed,True
+B77-test-01948,How do I retrieve a trapped card from a ATM?,card_swallowed,card_swallowed,True
+B77-test-01949,"My card is stuck in the ATM, what can I do?",card_swallowed,card_swallowed,True
+B77-test-01950,I was getting cash and can't get my card back.,card_swallowed,card_swallowed,True
+B77-test-01951,"If my card is trapped in the ATM, what do I do?",card_swallowed,card_swallowed,True
+B77-test-01952,My card has been swallowed by an ATM,card_swallowed,card_swallowed,True
+B77-test-01953,I was taking out funds and was unable to regain my card.,card_swallowed,card_not_working,False
+B77-test-01954,What should I do with my atm that got stuck?,card_swallowed,card_swallowed,True
+B77-test-01955,The ATM at Metro bank on High St. Kensington didn't return my card. What should I do now that the bank is closed?,card_swallowed,card_swallowed,True
+B77-test-01956,The ATM won't give back my card,card_swallowed,card_swallowed,True
+B77-test-01957,I was at an ATM and it swallowed my card.,card_swallowed,card_swallowed,True
+B77-test-01958,WTF??? I tried to withdraw some money at a Metro bank on High St. Kensington and without any notice it disappeared in the machine. The bank was already closed so I couldn't do anything. How do I get it back?,card_swallowed,card_swallowed,True
+B77-test-01959,What happens if my card is stuck in the ATM?,card_swallowed,card_swallowed,True
+B77-test-01960,I got double charged for a payment so how do I fix that?,transaction_charged_twice,transaction_charged_twice,True
+B77-test-01961,"I've just come back from an eating holiday in the USA and Canada and have SO many pending and duplicated transactions on my account.  I think there is something wrong, can you look in to it please?",transaction_charged_twice,transaction_charged_twice,True
+B77-test-01962,Why am I being charged twice fro a restaurant?,transaction_charged_twice,transaction_charged_twice,True
+B77-test-01963,I would like to know why I was charged twice for my purchase.,transaction_charged_twice,transaction_charged_twice,True
+B77-test-01964,I didn't buy this twice,transaction_charged_twice,card_payment_not_recognised,False
+B77-test-01965,Why was I chaged twice for the same thing?,transaction_charged_twice,transaction_charged_twice,True
+B77-test-01966,Why is there more then one charge on my card I only paid for one not twice how can I fix this?,transaction_charged_twice,transaction_charged_twice,True
+B77-test-01967,I have a duplicate payment showing up on the app. How do I stop myself being charged for the thing twice?,transaction_charged_twice,transaction_charged_twice,True
+B77-test-01968,Why would I be charged more than once for the same transaction?,transaction_charged_twice,transaction_charged_twice,True
+B77-test-01969,I was wondering how I could have two charges for the same item happen more than once in a 7 day period. Is there anyway I could get this corrected asap.,transaction_charged_twice,transaction_charged_twice,True
+B77-test-01970,Can you please check if I was charged twice?,transaction_charged_twice,transaction_charged_twice,True
+B77-test-01971,I have been charged twice,transaction_charged_twice,transaction_charged_twice,True
+B77-test-01972,It appears that I am being double charged for some items that I have purchased this past week.  Please review and correct.,transaction_charged_twice,transaction_charged_twice,True
+B77-test-01973,It looks like this week I was double charged for a couple things. Is there any way that you can look into this for me and return the double charged items back to my card?,transaction_charged_twice,transaction_charged_twice,True
+B77-test-01974,I noticed after looking over my transactions that I have been charged twice from an earlier restaurant visit this week. Is it possible that one of these can be removed so I get the money back for the one that is not accurate?,transaction_charged_twice,transaction_charged_twice,True
+B77-test-01975,I think something may have happened that caused a charge to show up twice.,transaction_charged_twice,transaction_charged_twice,True
+B77-test-01976,Why is there a transaction that shows multiple times?,transaction_charged_twice,transaction_charged_twice,True
+B77-test-01977,I see what looks like duplicate charges on account.,transaction_charged_twice,transaction_charged_twice,True
+B77-test-01978,Why was I charged multiple times for the same thing?,transaction_charged_twice,transaction_charged_twice,True
+B77-test-01979,I had a duplicate card and got charged twice. How do I resolve this?,transaction_charged_twice,transaction_charged_twice,True
+B77-test-01980,Hello. I checked my transactions and saw I was double charged on my card for a restaurant visit. I would like to get my money back.,transaction_charged_twice,transaction_charged_twice,True
+B77-test-01981,Why am I being charged twice?,transaction_charged_twice,transaction_charged_twice,True
+B77-test-01982,Transactions on my card look really weird. I've been charged twice for a couple things this week! Please check this and return the double charged ones.,transaction_charged_twice,transaction_charged_twice,True
+B77-test-01983,Please check payments on my card. There is a duplicate and I only bought it once.,transaction_charged_twice,transaction_charged_twice,True
+B77-test-01984,"More than one time this week, I have been charged more than once for the same transaction. Please correct the issue and refund the duplicate charges.",transaction_charged_twice,transaction_charged_twice,True
+B77-test-01985,A transaction is repeated several times on my account.,transaction_charged_twice,transaction_charged_twice,True
+B77-test-01986,I've been charged more than once for the same transaction,transaction_charged_twice,transaction_charged_twice,True
+B77-test-01987,My card has been charged two separate times for a single transaction.,transaction_charged_twice,transaction_charged_twice,True
+B77-test-01988,Can you explain why there is a payment showing twice?,transaction_charged_twice,transaction_charged_twice,True
+B77-test-01989,Why have I been charged twice for the same transaction?,transaction_charged_twice,transaction_charged_twice,True
+B77-test-01990,I see that I have been charged multiple times for the same transaction.,transaction_charged_twice,transaction_charged_twice,True
+B77-test-01991,I was double charged,transaction_charged_twice,transaction_charged_twice,True
+B77-test-01992,I have multiple charges on the same transaction.,transaction_charged_twice,transaction_charged_twice,True
+B77-test-01993,"Looks like my card payment was duplicated. I went to pay at the store earlier, got declined once,second time it works. App still stays pending for one of the payments. Can you please remove one of them as it's wrong and clearly was declined?",transaction_charged_twice,transaction_charged_twice,True
+B77-test-01994,I have a transaction that shows several times,transaction_charged_twice,transaction_charged_twice,True
+B77-test-01995,I recently got charged twice from a restaurant that I was at this week and I would like for one of those payments to be removed from my account.,transaction_charged_twice,transaction_charged_twice,True
+B77-test-01996,There is more than one of the same transaction on my account.,transaction_charged_twice,transaction_charged_twice,True
+B77-test-01997,I have a duplicate payment showing,transaction_charged_twice,transaction_charged_twice,True
+B77-test-01998,I made a payment that got charged twice instead of once.,transaction_charged_twice,transaction_charged_twice,True
+B77-test-01999,What are my remedies if I think I was charged twice for the same expense?,transaction_charged_twice,transaction_charged_twice,True
+B77-test-02280,dont understand why transfer failed,failed_transfer,failed_transfer,True
+B77-test-02281,Please help me make a transfer. I keep receiving an error and I'm trying to make the initial mortgage payment for a flat I'm buying. What is the deal here?,failed_transfer,failed_transfer,True
+B77-test-02282,My transfer didn't work,failed_transfer,failed_transfer,True
+B77-test-02283,"Fix your system. I can't make transfers, I've tried like 5 times already.",failed_transfer,failed_transfer,True
+B77-test-02284,Tell me why my transfer failed!,failed_transfer,failed_transfer,True
+B77-test-02285,My transfer did not go through.,failed_transfer,failed_transfer,True
+B77-test-02286,Why was I not able to complete a transfer?,failed_transfer,failed_transfer,True
+B77-test-02287,Can you help me figure out what's happening? I'm trying to transfer money to a friend but it keeps getting returned. I'm not sure what i'm doing wrong.,failed_transfer,failed_transfer,True
+B77-test-02288,Why did my transfer not go through?,failed_transfer,failed_transfer,True
+B77-test-02289,My transfer didn't go through.,failed_transfer,failed_transfer,True
+B77-test-02290,I could not get my transfer to happen correctly and was wondering why?,failed_transfer,failed_transfer,True
+B77-test-02291,how come my transfer didn't work,failed_transfer,failed_transfer,True
+B77-test-02292,"I transferred my funds, why did it not go through?",failed_transfer,failed_transfer,True
+B77-test-02293,Why has my transfer failed?,failed_transfer,failed_transfer,True
+B77-test-02294,Why did my transfer fail?,failed_transfer,failed_transfer,True
+B77-test-02295,Why hasn't my transfer been made?,failed_transfer,balance_not_updated_after_bank_transfer,False
+B77-test-02296,My transfer will not go through.,failed_transfer,failed_transfer,True
+B77-test-02297,My transfer keeps failing and I just want to transfer the money can you please make it work?,failed_transfer,failed_transfer,True
+B77-test-02298,"The transfer keeps failing , I tried to transfer some money to friends this morning but it keeps getting rejected for some reason, Would you please check the issue ?",failed_transfer,failed_transfer,True
+B77-test-02299,Why would a transfer fail?,failed_transfer,failed_transfer,True
+B77-test-02300,What are your policies for card transfers?,failed_transfer,failed_transfer,True
+B77-test-02301,Is the system down? I've been trying to do a transfer and have failed?,failed_transfer,failed_transfer,True
+B77-test-02302,I tried to make a transfer but it failed,failed_transfer,failed_transfer,True
+B77-test-02303,Why couldn't I complete a transfer?,failed_transfer,failed_transfer,True
+B77-test-02304,My transfer appeared not to work.,failed_transfer,failed_transfer,True
+B77-test-02305,What is stopping my money from transferring?,failed_transfer,balance_not_updated_after_bank_transfer,False
+B77-test-02306,"Hi, I'm buying a flat and I'm trying to get my mortgage to go though. Every time I check I simply get an error message. Is there any way you can help me get this money transferred over. Thanks!",failed_transfer,failed_transfer,True
+B77-test-02307,My attempted transfer failed.,failed_transfer,failed_transfer,True
+B77-test-02308,"I can not seem to make a successful transfer, can you tell me what I'm doing wrong?",failed_transfer,failed_transfer,True
+B77-test-02309,"Please help me as i am continuously facing the issue in transferring money to my friends, as all my transactions are getting failed.",failed_transfer,failed_transfer,True
+B77-test-02310,"I am trying to make a transfer and am unsuccessful, can you please tell me why?",failed_transfer,failed_transfer,True
+B77-test-02311,My transfer did not seem to work.,failed_transfer,failed_transfer,True
+B77-test-02312,"I've now been trying to do a really standard transfer 5 times already. What's going on, is your system broken or something?!",failed_transfer,failed_transfer,True
+B77-test-02313,help me with my transfer,failed_transfer,failed_transfer,True
+B77-test-02314,Says my transfer can't be completed?,failed_transfer,failed_transfer,True
+B77-test-02315,can you tell me why my transfer failed?,failed_transfer,failed_transfer,True
+B77-test-02316,Why didn't my transfer go through?,failed_transfer,failed_transfer,True
+B77-test-02317,I've attempted to do a very standard transfer and have tried 5 times at this point. Can you tell me what the issue is? Is the system down?,failed_transfer,failed_transfer,True
+B77-test-02318,Can you provide a reason as to why my transfer did not work?,failed_transfer,failed_transfer,True
+B77-test-02319,I tried to transfer money and it did not work.,failed_transfer,failed_transfer,True
+B77-test-02680,I made a transfer a few hours ago from a UK banking account.  I do not yet see the transfer.  Please check on this for me.,balance_not_updated_after_bank_transfer,balance_not_updated_after_bank_transfer,True
+B77-test-02681,the balance on my account didnt change when i transferred money,balance_not_updated_after_bank_transfer,balance_not_updated_after_bank_transfer,True
+B77-test-02682,How long will it take for my transferred money to show up?,balance_not_updated_after_bank_transfer,balance_not_updated_after_bank_transfer,True
+B77-test-02683,Why didn't my balance change after I transferred some money?,balance_not_updated_after_bank_transfer,balance_not_updated_after_bank_transfer,True
+B77-test-02684,When will my balance update after a transfer?,balance_not_updated_after_bank_transfer,balance_not_updated_after_bank_transfer,True
+B77-test-02685,How long does it take for an international transfer into my account?,balance_not_updated_after_bank_transfer,balance_not_updated_after_bank_transfer,True
+B77-test-02686,The amount of time that transfers usually take from a UK account is what?I just completed a transfer and it is not showing up at all. I'm wondering at this point if everything is actually okay.,balance_not_updated_after_bank_transfer,balance_not_updated_after_bank_transfer,True
+B77-test-02687,When will my transfer be available in my account.,balance_not_updated_after_bank_transfer,balance_not_updated_after_bank_transfer,True
+B77-test-02688,I didn't get the money I transferred,balance_not_updated_after_bank_transfer,transfer_not_received_by_recipient,False
+B77-test-02689,I just completed a bank transfer and the balance didn't update,balance_not_updated_after_bank_transfer,balance_not_updated_after_bank_transfer,True
+B77-test-02690,I transferred some money but I think it has gotten lost somewhere.,balance_not_updated_after_bank_transfer,transfer_not_received_by_recipient,False
+B77-test-02691,How long does a UK transfer take?,balance_not_updated_after_bank_transfer,balance_not_updated_after_bank_transfer,True
+B77-test-02692,Hello I made a bank transfer couple hours ago from my UK account but it doesn't show up yet. Can you please check if everything is alright with it?,balance_not_updated_after_bank_transfer,balance_not_updated_after_bank_transfer,True
+B77-test-02693,I made a transfer and am still waiting.,balance_not_updated_after_bank_transfer,balance_not_updated_after_bank_transfer,True
+B77-test-02694,I made an out of country transfer and it hasn't went through yet.,balance_not_updated_after_bank_transfer,balance_not_updated_after_bank_transfer,True
+B77-test-02695,"After the transfer, the balance did not update.",balance_not_updated_after_bank_transfer,balance_not_updated_after_bank_transfer,True
+B77-test-02696,"Could you please check one of my transfer which i made few hours ago from my UK bank account, as its not showing yet.",balance_not_updated_after_bank_transfer,balance_not_updated_after_bank_transfer,True
+B77-test-02697,I had cash transferred but the balance did not change.,balance_not_updated_after_bank_transfer,balance_not_updated_after_bank_transfer,True
+B77-test-02698,I can't see my latest bank transfer,balance_not_updated_after_bank_transfer,balance_not_updated_after_bank_transfer,True
+B77-test-02699,My bank transfer is still not showing up in my account.,balance_not_updated_after_bank_transfer,balance_not_updated_after_bank_transfer,True
+B77-test-02700,I made a transfer and it doesnt' show up in my account.,balance_not_updated_after_bank_transfer,balance_not_updated_after_bank_transfer,True
+B77-test-02701,I transferred some money but it is yet to arrive.,balance_not_updated_after_bank_transfer,transfer_not_received_by_recipient,False
+B77-test-02702,Why is my balance the same?  I processed a transfer.,balance_not_updated_after_bank_transfer,balance_not_updated_after_bank_transfer,True
+B77-test-02703,Why don't I have my transfer?,balance_not_updated_after_bank_transfer,failed_transfer,False
+B77-test-02704,Why isn't the transfer on my account showing up?,balance_not_updated_after_bank_transfer,balance_not_updated_after_bank_transfer,True
+B77-test-02705,The  money I transferred does not show in the balance.,balance_not_updated_after_bank_transfer,balance_not_updated_after_bank_transfer,True
+B77-test-02706,I have completed a transfer but it is not showing up.,balance_not_updated_after_bank_transfer,balance_not_updated_after_bank_transfer,True
+B77-test-02707,I did a transfer to my account but it doesn't show up,balance_not_updated_after_bank_transfer,balance_not_updated_after_bank_transfer,True
+B77-test-02708,How long until my transfer will be available to me,balance_not_updated_after_bank_transfer,pending_transfer,False
+B77-test-02709,Why doesn't it show that I did a balance transfer?,balance_not_updated_after_bank_transfer,balance_not_updated_after_bank_transfer,True
+B77-test-02710,"I made a bank transfer a couple of hours ago from my UK account.  It hasn't appeared, can you check to make sure it went through?",balance_not_updated_after_bank_transfer,balance_not_updated_after_bank_transfer,True
+B77-test-02711,My transfer is pending.,balance_not_updated_after_bank_transfer,pending_transfer,False
+B77-test-02712,"Hey, I try to make a bank transfer from my UK account a few hours ago, but it haven't show up yet. Please check my account to make sure everything alright with it?",balance_not_updated_after_bank_transfer,balance_not_updated_after_bank_transfer,True
+B77-test-02713,Where is my transfer from [country]?,balance_not_updated_after_bank_transfer,balance_not_updated_after_bank_transfer,True
+B77-test-02714,I made a bank transfer and my account balance did not show it.,balance_not_updated_after_bank_transfer,balance_not_updated_after_bank_transfer,True
+B77-test-02715,Where is my money? I transfered it and it isn't in my account.,balance_not_updated_after_bank_transfer,balance_not_updated_after_bank_transfer,True
+B77-test-02716,I need to know the time frame that is typical for a transfer from a UK account. I just made a transfer and it doesn't appear. I want to make sure everything is okay.,balance_not_updated_after_bank_transfer,balance_not_updated_after_bank_transfer,True
+B77-test-02717,Why doesn't my balance reflect my transfer,balance_not_updated_after_bank_transfer,balance_not_updated_after_bank_transfer,True
+B77-test-02718,My account balance has not gone up even though I just transferred money into it,balance_not_updated_after_bank_transfer,balance_not_updated_after_bank_transfer,True
+B77-test-02719,When will I see my new balance after making my bank transfer?,balance_not_updated_after_bank_transfer,balance_not_updated_after_bank_transfer,True

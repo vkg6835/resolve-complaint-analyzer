@@ -1,0 +1,2295 @@
+{
+  "selected_model": "word_char",
+  "selection_rule": "Highest development macro-F1; test excluded from selection",
+  "seed": 127,
+  "provenance": {
+    "dataset": "BANKING77",
+    "repository": "PolyAI/banking77",
+    "url": "https://huggingface.co/datasets/PolyAI/banking77",
+    "paper": "https://arxiv.org/abs/2003.04807",
+    "citation": "Casanueva et al. (2020), Efficient Intent Detection with Dual Sentence Encoders",
+    "license": "CC BY 4.0",
+    "revision": "1846984189f2bc0ac51c6fc3a600fa9e1714e0c6",
+    "seed": 127,
+    "scope": "12 selected complaint-related intents out of the original 77; English only",
+    "split_policy": "Official test preserved; stratified 15% validation from the cleaned official training pool",
+    "counts": {
+      "train": 1443,
+      "dev": 255,
+      "test": 480
+    },
+    "original_selected_train": 1699,
+    "removed_train_test_exact_overlap": 0,
+    "removed_train_duplicates": 1,
+    "test_duplicate_texts": 0,
+    "labels": [
+      "transaction_charged_twice",
+      "card_payment_not_recognised",
+      "declined_card_payment",
+      "card_not_working",
+      "pending_card_payment",
+      "pending_transfer",
+      "failed_transfer",
+      "transfer_not_received_by_recipient",
+      "balance_not_updated_after_bank_transfer",
+      "Refund_not_showing_up",
+      "card_swallowed",
+      "lost_or_stolen_card"
+    ],
+    "sha256": {
+      "test-00000-of-00001.parquet": "1f40f777c33f0edfa6c530ff84fe2878db6490838c12d22d036f626948905341",
+      "train-00000-of-00001.parquet": "8dc89b87a188509c42cce5a086e8f7c1ff4a225bdd9ae3f23e6cdfa5806e363a"
+    },
+    "limitations": [
+      "Intent labels describe the reported problem, not a verified operational root cause.",
+      "Authored demo inbox and investigation playbooks are separate from the benchmark.",
+      "A score on this selected subset is not a score on all 77 intents."
+    ]
+  },
+  "experiments": [
+    {
+      "id": "unigram",
+      "name": "Word unigrams",
+      "features": 616,
+      "dev": {
+        "accuracy": 0.8901960784313725,
+        "macro_f1": 0.8834346087139106,
+        "per_class": [
+          {
+            "label": "transaction_charged_twice",
+            "precision": 0.9615384615384616,
+            "recall": 0.9615384615384616,
+            "f1": 0.9615384615384616,
+            "support": 26
+          },
+          {
+            "label": "card_payment_not_recognised",
+            "precision": 0.8571428571428571,
+            "recall": 0.96,
+            "f1": 0.9056603773584904,
+            "support": 25
+          },
+          {
+            "label": "declined_card_payment",
+            "precision": 0.875,
+            "recall": 0.9130434782608695,
+            "f1": 0.8936170212765957,
+            "support": 23
+          },
+          {
+            "label": "card_not_working",
+            "precision": 0.8,
+            "recall": 0.7058823529411765,
+            "f1": 0.7500000000000001,
+            "support": 17
+          },
+          {
+            "label": "pending_card_payment",
+            "precision": 0.9545454545454546,
+            "recall": 0.875,
+            "f1": 0.9130434782608695,
+            "support": 24
+          },
+          {
+            "label": "pending_transfer",
+            "precision": 0.75,
+            "recall": 0.8181818181818182,
+            "f1": 0.7826086956521738,
+            "support": 22
+          },
+          {
+            "label": "failed_transfer",
+            "precision": 0.9090909090909091,
+            "recall": 0.9523809523809523,
+            "f1": 0.9302325581395349,
+            "support": 21
+          },
+          {
+            "label": "transfer_not_received_by_recipient",
+            "precision": 0.8275862068965517,
+            "recall": 0.9230769230769231,
+            "f1": 0.8727272727272727,
+            "support": 26
+          },
+          {
+            "label": "balance_not_updated_after_bank_transfer",
+            "precision": 1.0,
+            "recall": 0.7692307692307693,
+            "f1": 0.8695652173913044,
+            "support": 26
+          },
+          {
+            "label": "Refund_not_showing_up",
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "support": 24
+          },
+          {
+            "label": "card_swallowed",
+            "precision": 0.8888888888888888,
+            "recall": 0.8888888888888888,
+            "f1": 0.8888888888888888,
+            "support": 9
+          },
+          {
+            "label": "lost_or_stolen_card",
+            "precision": 0.8333333333333334,
+            "recall": 0.8333333333333334,
+            "f1": 0.8333333333333334,
+            "support": 12
+          }
+        ],
+        "confusion_matrix": [
+          [
+            25,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            24,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            21,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            2,
+            12,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            2
+          ],
+          [
+            0,
+            1,
+            0,
+            0,
+            21,
+            2,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            1,
+            18,
+            2,
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            20,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            24,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            3,
+            0,
+            3,
+            20,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            24,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            8,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            2,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            10
+          ]
+        ],
+        "count": 255
+      },
+      "training": {
+        "best_epoch": 210,
+        "history": [
+          {
+            "epoch": 1,
+            "train_cross_entropy": 2.4849069118499756,
+            "dev_macro_f1": 0.5115473116367718
+          },
+          {
+            "epoch": 5,
+            "train_cross_entropy": 1.827278733253479,
+            "dev_macro_f1": 0.6658851145261143
+          },
+          {
+            "epoch": 10,
+            "train_cross_entropy": 1.2462471723556519,
+            "dev_macro_f1": 0.7862810359631364
+          },
+          {
+            "epoch": 15,
+            "train_cross_entropy": 0.887482225894928,
+            "dev_macro_f1": 0.8058107566088198
+          },
+          {
+            "epoch": 20,
+            "train_cross_entropy": 0.6817867755889893,
+            "dev_macro_f1": 0.8081545928498516
+          },
+          {
+            "epoch": 25,
+            "train_cross_entropy": 0.5655139684677124,
+            "dev_macro_f1": 0.8193937953002154
+          },
+          {
+            "epoch": 30,
+            "train_cross_entropy": 0.4992348253726959,
+            "dev_macro_f1": 0.8370228629543992
+          },
+          {
+            "epoch": 35,
+            "train_cross_entropy": 0.4611903131008148,
+            "dev_macro_f1": 0.8396079657747172
+          },
+          {
+            "epoch": 40,
+            "train_cross_entropy": 0.4384087920188904,
+            "dev_macro_f1": 0.833284072471275
+          },
+          {
+            "epoch": 45,
+            "train_cross_entropy": 0.42362335324287415,
+            "dev_macro_f1": 0.8509532947212484
+          },
+          {
+            "epoch": 50,
+            "train_cross_entropy": 0.4129427969455719,
+            "dev_macro_f1": 0.8538392287144316
+          },
+          {
+            "epoch": 55,
+            "train_cross_entropy": 0.4041992425918579,
+            "dev_macro_f1": 0.857133987259231
+          },
+          {
+            "epoch": 60,
+            "train_cross_entropy": 0.39651528000831604,
+            "dev_macro_f1": 0.8573059731185081
+          },
+          {
+            "epoch": 65,
+            "train_cross_entropy": 0.38958051800727844,
+            "dev_macro_f1": 0.8606208050642373
+          },
+          {
+            "epoch": 70,
+            "train_cross_entropy": 0.38316357135772705,
+            "dev_macro_f1": 0.8601884274579467
+          },
+          {
+            "epoch": 75,
+            "train_cross_entropy": 0.3771134316921234,
+            "dev_macro_f1": 0.8602497853344305
+          },
+          {
+            "epoch": 80,
+            "train_cross_entropy": 0.3714127540588379,
+            "dev_macro_f1": 0.8673246971643258
+          },
+          {
+            "epoch": 85,
+            "train_cross_entropy": 0.3660830855369568,
+            "dev_macro_f1": 0.8673246971643258
+          },
+          {
+            "epoch": 90,
+            "train_cross_entropy": 0.36115312576293945,
+            "dev_macro_f1": 0.8673246971643258
+          },
+          {
+            "epoch": 95,
+            "train_cross_entropy": 0.3566415309906006,
+            "dev_macro_f1": 0.8643931947045215
+          },
+          {
+            "epoch": 100,
+            "train_cross_entropy": 0.35252857208251953,
+            "dev_macro_f1": 0.8682381922995189
+          },
+          {
+            "epoch": 105,
+            "train_cross_entropy": 0.3487829566001892,
+            "dev_macro_f1": 0.8682381922995189
+          },
+          {
+            "epoch": 110,
+            "train_cross_entropy": 0.34537431597709656,
+            "dev_macro_f1": 0.8751971956190582
+          },
+          {
+            "epoch": 115,
+            "train_cross_entropy": 0.3422711491584778,
+            "dev_macro_f1": 0.8751971956190582
+          },
+          {
+            "epoch": 120,
+            "train_cross_entropy": 0.3394421339035034,
+            "dev_macro_f1": 0.8751971956190582
+          },
+          {
+            "epoch": 125,
+            "train_cross_entropy": 0.33686089515686035,
+            "dev_macro_f1": 0.8751971956190582
+          },
+          {
+            "epoch": 130,
+            "train_cross_entropy": 0.3344956338405609,
+            "dev_macro_f1": 0.8783487164653284
+          },
+          {
+            "epoch": 135,
+            "train_cross_entropy": 0.33231860399246216,
+            "dev_macro_f1": 0.8715030250682957
+          },
+          {
+            "epoch": 140,
+            "train_cross_entropy": 0.3303113579750061,
+            "dev_macro_f1": 0.8715030250682957
+          },
+          {
+            "epoch": 145,
+            "train_cross_entropy": 0.3284607231616974,
+            "dev_macro_f1": 0.8715030250682957
+          },
+          {
+            "epoch": 150,
+            "train_cross_entropy": 0.32675108313560486,
+            "dev_macro_f1": 0.8715030250682957
+          },
+          {
+            "epoch": 155,
+            "train_cross_entropy": 0.32516807317733765,
+            "dev_macro_f1": 0.8715030250682957
+          },
+          {
+            "epoch": 160,
+            "train_cross_entropy": 0.32369881868362427,
+            "dev_macro_f1": 0.8715030250682957
+          },
+          {
+            "epoch": 165,
+            "train_cross_entropy": 0.32233139872550964,
+            "dev_macro_f1": 0.8749633835706709
+          },
+          {
+            "epoch": 170,
+            "train_cross_entropy": 0.32105669379234314,
+            "dev_macro_f1": 0.8749633835706709
+          },
+          {
+            "epoch": 175,
+            "train_cross_entropy": 0.31986716389656067,
+            "dev_macro_f1": 0.878355482614944
+          },
+          {
+            "epoch": 180,
+            "train_cross_entropy": 0.3187556564807892,
+            "dev_macro_f1": 0.878355482614944
+          },
+          {
+            "epoch": 185,
+            "train_cross_entropy": 0.31771522760391235,
+            "dev_macro_f1": 0.878355482614944
+          },
+          {
+            "epoch": 190,
+            "train_cross_entropy": 0.3167397081851959,
+            "dev_macro_f1": 0.8832671161084238
+          },
+          {
+            "epoch": 195,
+            "train_cross_entropy": 0.3158237636089325,
+            "dev_macro_f1": 0.8832671161084238
+          },
+          {
+            "epoch": 200,
+            "train_cross_entropy": 0.3149624466896057,
+            "dev_macro_f1": 0.8832671161084238
+          },
+          {
+            "epoch": 205,
+            "train_cross_entropy": 0.3141513466835022,
+            "dev_macro_f1": 0.8832671161084238
+          },
+          {
+            "epoch": 210,
+            "train_cross_entropy": 0.3133862018585205,
+            "dev_macro_f1": 0.8834346087139106
+          },
+          {
+            "epoch": 215,
+            "train_cross_entropy": 0.3126645088195801,
+            "dev_macro_f1": 0.8834346087139106
+          },
+          {
+            "epoch": 220,
+            "train_cross_entropy": 0.31198257207870483,
+            "dev_macro_f1": 0.8834346087139106
+          },
+          {
+            "epoch": 225,
+            "train_cross_entropy": 0.3113374412059784,
+            "dev_macro_f1": 0.8834346087139106
+          },
+          {
+            "epoch": 230,
+            "train_cross_entropy": 0.31072700023651123,
+            "dev_macro_f1": 0.8834346087139106
+          },
+          {
+            "epoch": 235,
+            "train_cross_entropy": 0.3101485073566437,
+            "dev_macro_f1": 0.8834346087139106
+          },
+          {
+            "epoch": 240,
+            "train_cross_entropy": 0.3095996677875519,
+            "dev_macro_f1": 0.8834346087139106
+          },
+          {
+            "epoch": 245,
+            "train_cross_entropy": 0.30907872319221497,
+            "dev_macro_f1": 0.8834346087139106
+          },
+          {
+            "epoch": 250,
+            "train_cross_entropy": 0.3085837662220001,
+            "dev_macro_f1": 0.8834346087139106
+          },
+          {
+            "epoch": 255,
+            "train_cross_entropy": 0.3081130087375641,
+            "dev_macro_f1": 0.8834346087139106
+          },
+          {
+            "epoch": 260,
+            "train_cross_entropy": 0.3076651096343994,
+            "dev_macro_f1": 0.8834346087139106
+          }
+        ],
+        "l2": 0.00025,
+        "learning_rate": 0.055,
+        "optimizer": "Adam (own implementation)"
+      },
+      "train_seconds": 0.215,
+      "test": {
+        "accuracy": 0.9145833333333333,
+        "macro_f1": 0.9142947436064021,
+        "per_class": [
+          {
+            "label": "transaction_charged_twice",
+            "precision": 0.9512195121951219,
+            "recall": 0.975,
+            "f1": 0.9629629629629629,
+            "support": 40
+          },
+          {
+            "label": "card_payment_not_recognised",
+            "precision": 0.9523809523809523,
+            "recall": 1.0,
+            "f1": 0.975609756097561,
+            "support": 40
+          },
+          {
+            "label": "declined_card_payment",
+            "precision": 0.9302325581395349,
+            "recall": 1.0,
+            "f1": 0.963855421686747,
+            "support": 40
+          },
+          {
+            "label": "card_not_working",
+            "precision": 0.8837209302325582,
+            "recall": 0.95,
+            "f1": 0.9156626506024096,
+            "support": 40
+          },
+          {
+            "label": "pending_card_payment",
+            "precision": 0.9230769230769231,
+            "recall": 0.9,
+            "f1": 0.9113924050632911,
+            "support": 40
+          },
+          {
+            "label": "pending_transfer",
+            "precision": 0.8421052631578947,
+            "recall": 0.8,
+            "f1": 0.8205128205128205,
+            "support": 40
+          },
+          {
+            "label": "failed_transfer",
+            "precision": 0.8409090909090909,
+            "recall": 0.925,
+            "f1": 0.8809523809523809,
+            "support": 40
+          },
+          {
+            "label": "transfer_not_received_by_recipient",
+            "precision": 0.8648648648648649,
+            "recall": 0.8,
+            "f1": 0.8311688311688312,
+            "support": 40
+          },
+          {
+            "label": "balance_not_updated_after_bank_transfer",
+            "precision": 0.8,
+            "recall": 0.8,
+            "f1": 0.8000000000000002,
+            "support": 40
+          },
+          {
+            "label": "Refund_not_showing_up",
+            "precision": 1.0,
+            "recall": 0.975,
+            "f1": 0.9873417721518987,
+            "support": 40
+          },
+          {
+            "label": "card_swallowed",
+            "precision": 1.0,
+            "recall": 0.925,
+            "f1": 0.961038961038961,
+            "support": 40
+          },
+          {
+            "label": "lost_or_stolen_card",
+            "precision": 1.0,
+            "recall": 0.925,
+            "f1": 0.961038961038961,
+            "support": 40
+          }
+        ],
+        "confusion_matrix": [
+          [
+            39,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            40,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            40,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            2,
+            38,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            1,
+            0,
+            1,
+            36,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            2,
+            32,
+            3,
+            1,
+            2,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            37,
+            0,
+            2,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            1,
+            2,
+            2,
+            32,
+            3,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            3,
+            1,
+            4,
+            32,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            39,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            2,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            37,
+            0
+          ],
+          [
+            1,
+            0,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            37
+          ]
+        ],
+        "count": 480
+      },
+      "selected": false
+    },
+    {
+      "id": "word_bigram",
+      "name": "Word unigrams + bigrams",
+      "features": 2924,
+      "dev": {
+        "accuracy": 0.9019607843137255,
+        "macro_f1": 0.8944393800020486,
+        "per_class": [
+          {
+            "label": "transaction_charged_twice",
+            "precision": 0.9629629629629629,
+            "recall": 1.0,
+            "f1": 0.9811320754716981,
+            "support": 26
+          },
+          {
+            "label": "card_payment_not_recognised",
+            "precision": 0.8571428571428571,
+            "recall": 0.96,
+            "f1": 0.9056603773584904,
+            "support": 25
+          },
+          {
+            "label": "declined_card_payment",
+            "precision": 0.88,
+            "recall": 0.9565217391304348,
+            "f1": 0.9166666666666666,
+            "support": 23
+          },
+          {
+            "label": "card_not_working",
+            "precision": 0.9230769230769231,
+            "recall": 0.7058823529411765,
+            "f1": 0.8000000000000002,
+            "support": 17
+          },
+          {
+            "label": "pending_card_payment",
+            "precision": 0.875,
+            "recall": 0.875,
+            "f1": 0.875,
+            "support": 24
+          },
+          {
+            "label": "pending_transfer",
+            "precision": 0.85,
+            "recall": 0.7727272727272727,
+            "f1": 0.8095238095238095,
+            "support": 22
+          },
+          {
+            "label": "failed_transfer",
+            "precision": 0.9523809523809523,
+            "recall": 0.9523809523809523,
+            "f1": 0.9523809523809523,
+            "support": 21
+          },
+          {
+            "label": "transfer_not_received_by_recipient",
+            "precision": 0.8275862068965517,
+            "recall": 0.9230769230769231,
+            "f1": 0.8727272727272727,
+            "support": 26
+          },
+          {
+            "label": "balance_not_updated_after_bank_transfer",
+            "precision": 0.9565217391304348,
+            "recall": 0.8461538461538461,
+            "f1": 0.8979591836734695,
+            "support": 26
+          },
+          {
+            "label": "Refund_not_showing_up",
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "support": 24
+          },
+          {
+            "label": "card_swallowed",
+            "precision": 0.8888888888888888,
+            "recall": 0.8888888888888888,
+            "f1": 0.8888888888888888,
+            "support": 9
+          },
+          {
+            "label": "lost_or_stolen_card",
+            "precision": 0.8333333333333334,
+            "recall": 0.8333333333333334,
+            "f1": 0.8333333333333334,
+            "support": 12
+          }
+        ],
+        "confusion_matrix": [
+          [
+            26,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            24,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            22,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            2,
+            12,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            2
+          ],
+          [
+            0,
+            2,
+            0,
+            0,
+            21,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            2,
+            17,
+            1,
+            1,
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            20,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            24,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            3,
+            22,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            24,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            8,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            10
+          ]
+        ],
+        "count": 255
+      },
+      "training": {
+        "best_epoch": 175,
+        "history": [
+          {
+            "epoch": 1,
+            "train_cross_entropy": 2.4849069118499756,
+            "dev_macro_f1": 0.7071829484421791
+          },
+          {
+            "epoch": 5,
+            "train_cross_entropy": 1.4582123756408691,
+            "dev_macro_f1": 0.7912224957055881
+          },
+          {
+            "epoch": 10,
+            "train_cross_entropy": 0.8017851114273071,
+            "dev_macro_f1": 0.8283541841511172
+          },
+          {
+            "epoch": 15,
+            "train_cross_entropy": 0.5425500869750977,
+            "dev_macro_f1": 0.8419957321122918
+          },
+          {
+            "epoch": 20,
+            "train_cross_entropy": 0.44238391518592834,
+            "dev_macro_f1": 0.8473873784521652
+          },
+          {
+            "epoch": 25,
+            "train_cross_entropy": 0.4062492251396179,
+            "dev_macro_f1": 0.8466830694555343
+          },
+          {
+            "epoch": 30,
+            "train_cross_entropy": 0.3968515694141388,
+            "dev_macro_f1": 0.8560133984991815
+          },
+          {
+            "epoch": 35,
+            "train_cross_entropy": 0.3957851231098175,
+            "dev_macro_f1": 0.8603556068221381
+          },
+          {
+            "epoch": 40,
+            "train_cross_entropy": 0.3949376344680786,
+            "dev_macro_f1": 0.8641493900607223
+          },
+          {
+            "epoch": 45,
+            "train_cross_entropy": 0.39153680205345154,
+            "dev_macro_f1": 0.868366533737655
+          },
+          {
+            "epoch": 50,
+            "train_cross_entropy": 0.385987251996994,
+            "dev_macro_f1": 0.868366533737655
+          },
+          {
+            "epoch": 55,
+            "train_cross_entropy": 0.3800245225429535,
+            "dev_macro_f1": 0.8721093571081381
+          },
+          {
+            "epoch": 60,
+            "train_cross_entropy": 0.37446027994155884,
+            "dev_macro_f1": 0.8721093571081381
+          },
+          {
+            "epoch": 65,
+            "train_cross_entropy": 0.36979252099990845,
+            "dev_macro_f1": 0.8770113544622405
+          },
+          {
+            "epoch": 70,
+            "train_cross_entropy": 0.365760862827301,
+            "dev_macro_f1": 0.8768710812987117
+          },
+          {
+            "epoch": 75,
+            "train_cross_entropy": 0.362124502658844,
+            "dev_macro_f1": 0.8808915273214107
+          },
+          {
+            "epoch": 80,
+            "train_cross_entropy": 0.3589325249195099,
+            "dev_macro_f1": 0.8808915273214107
+          },
+          {
+            "epoch": 85,
+            "train_cross_entropy": 0.3560958504676819,
+            "dev_macro_f1": 0.8842334215589012
+          },
+          {
+            "epoch": 90,
+            "train_cross_entropy": 0.3535820245742798,
+            "dev_macro_f1": 0.8842334215589012
+          },
+          {
+            "epoch": 95,
+            "train_cross_entropy": 0.3513546884059906,
+            "dev_macro_f1": 0.8873998196971038
+          },
+          {
+            "epoch": 100,
+            "train_cross_entropy": 0.34939539432525635,
+            "dev_macro_f1": 0.8873998196971038
+          },
+          {
+            "epoch": 105,
+            "train_cross_entropy": 0.34766727685928345,
+            "dev_macro_f1": 0.8873998196971038
+          },
+          {
+            "epoch": 110,
+            "train_cross_entropy": 0.3460988998413086,
+            "dev_macro_f1": 0.8873998196971038
+          },
+          {
+            "epoch": 115,
+            "train_cross_entropy": 0.3446449637413025,
+            "dev_macro_f1": 0.8903680385851339
+          },
+          {
+            "epoch": 120,
+            "train_cross_entropy": 0.3432985842227936,
+            "dev_macro_f1": 0.8903680385851339
+          },
+          {
+            "epoch": 125,
+            "train_cross_entropy": 0.34206491708755493,
+            "dev_macro_f1": 0.8903680385851339
+          },
+          {
+            "epoch": 130,
+            "train_cross_entropy": 0.3409317135810852,
+            "dev_macro_f1": 0.8903680385851339
+          },
+          {
+            "epoch": 135,
+            "train_cross_entropy": 0.3398805260658264,
+            "dev_macro_f1": 0.8903680385851339
+          },
+          {
+            "epoch": 140,
+            "train_cross_entropy": 0.3389022648334503,
+            "dev_macro_f1": 0.8903680385851339
+          },
+          {
+            "epoch": 145,
+            "train_cross_entropy": 0.3379896879196167,
+            "dev_macro_f1": 0.8903680385851339
+          },
+          {
+            "epoch": 150,
+            "train_cross_entropy": 0.33714228868484497,
+            "dev_macro_f1": 0.8903680385851339
+          },
+          {
+            "epoch": 155,
+            "train_cross_entropy": 0.33635756373405457,
+            "dev_macro_f1": 0.8903680385851339
+          },
+          {
+            "epoch": 160,
+            "train_cross_entropy": 0.33562880754470825,
+            "dev_macro_f1": 0.8903680385851339
+          },
+          {
+            "epoch": 165,
+            "train_cross_entropy": 0.33494922518730164,
+            "dev_macro_f1": 0.8903680385851339
+          },
+          {
+            "epoch": 170,
+            "train_cross_entropy": 0.3343141973018646,
+            "dev_macro_f1": 0.8903680385851339
+          },
+          {
+            "epoch": 175,
+            "train_cross_entropy": 0.3337213397026062,
+            "dev_macro_f1": 0.8944393800020486
+          },
+          {
+            "epoch": 180,
+            "train_cross_entropy": 0.3331676423549652,
+            "dev_macro_f1": 0.8944393800020486
+          },
+          {
+            "epoch": 185,
+            "train_cross_entropy": 0.3326496481895447,
+            "dev_macro_f1": 0.8944393800020486
+          },
+          {
+            "epoch": 190,
+            "train_cross_entropy": 0.33216437697410583,
+            "dev_macro_f1": 0.8944393800020486
+          },
+          {
+            "epoch": 195,
+            "train_cross_entropy": 0.33170974254608154,
+            "dev_macro_f1": 0.8944393800020486
+          },
+          {
+            "epoch": 200,
+            "train_cross_entropy": 0.33128318190574646,
+            "dev_macro_f1": 0.8944393800020486
+          },
+          {
+            "epoch": 205,
+            "train_cross_entropy": 0.33088281750679016,
+            "dev_macro_f1": 0.8944393800020486
+          },
+          {
+            "epoch": 210,
+            "train_cross_entropy": 0.33050671219825745,
+            "dev_macro_f1": 0.8944393800020486
+          },
+          {
+            "epoch": 215,
+            "train_cross_entropy": 0.33015361428260803,
+            "dev_macro_f1": 0.8944393800020486
+          },
+          {
+            "epoch": 220,
+            "train_cross_entropy": 0.32982200384140015,
+            "dev_macro_f1": 0.8944393800020486
+          },
+          {
+            "epoch": 225,
+            "train_cross_entropy": 0.32951033115386963,
+            "dev_macro_f1": 0.8944393800020486
+          },
+          {
+            "epoch": 230,
+            "train_cross_entropy": 0.32921743392944336,
+            "dev_macro_f1": 0.8944393800020486
+          },
+          {
+            "epoch": 235,
+            "train_cross_entropy": 0.32894179224967957,
+            "dev_macro_f1": 0.8944393800020486
+          }
+        ],
+        "l2": 0.00025,
+        "learning_rate": 0.055,
+        "optimizer": "Adam (own implementation)"
+      },
+      "train_seconds": 0.336,
+      "test": {
+        "accuracy": 0.9145833333333333,
+        "macro_f1": 0.9140605407813017,
+        "per_class": [
+          {
+            "label": "transaction_charged_twice",
+            "precision": 0.9512195121951219,
+            "recall": 0.975,
+            "f1": 0.9629629629629629,
+            "support": 40
+          },
+          {
+            "label": "card_payment_not_recognised",
+            "precision": 0.9743589743589743,
+            "recall": 0.95,
+            "f1": 0.9620253164556962,
+            "support": 40
+          },
+          {
+            "label": "declined_card_payment",
+            "precision": 0.8888888888888888,
+            "recall": 1.0,
+            "f1": 0.9411764705882353,
+            "support": 40
+          },
+          {
+            "label": "card_not_working",
+            "precision": 0.9090909090909091,
+            "recall": 1.0,
+            "f1": 0.9523809523809523,
+            "support": 40
+          },
+          {
+            "label": "pending_card_payment",
+            "precision": 0.9024390243902439,
+            "recall": 0.925,
+            "f1": 0.9135802469135802,
+            "support": 40
+          },
+          {
+            "label": "pending_transfer",
+            "precision": 0.9375,
+            "recall": 0.75,
+            "f1": 0.8333333333333334,
+            "support": 40
+          },
+          {
+            "label": "failed_transfer",
+            "precision": 0.8260869565217391,
+            "recall": 0.95,
+            "f1": 0.8837209302325583,
+            "support": 40
+          },
+          {
+            "label": "transfer_not_received_by_recipient",
+            "precision": 0.8,
+            "recall": 0.8,
+            "f1": 0.8000000000000002,
+            "support": 40
+          },
+          {
+            "label": "balance_not_updated_after_bank_transfer",
+            "precision": 0.8205128205128205,
+            "recall": 0.8,
+            "f1": 0.810126582278481,
+            "support": 40
+          },
+          {
+            "label": "Refund_not_showing_up",
+            "precision": 1.0,
+            "recall": 0.975,
+            "f1": 0.9873417721518987,
+            "support": 40
+          },
+          {
+            "label": "card_swallowed",
+            "precision": 1.0,
+            "recall": 0.925,
+            "f1": 0.961038961038961,
+            "support": 40
+          },
+          {
+            "label": "lost_or_stolen_card",
+            "precision": 1.0,
+            "recall": 0.925,
+            "f1": 0.961038961038961,
+            "support": 40
+          }
+        ],
+        "confusion_matrix": [
+          [
+            39,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            38,
+            2,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            40,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            40,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            0,
+            1,
+            1,
+            37,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            3,
+            30,
+            4,
+            2,
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            38,
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            2,
+            32,
+            5,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            2,
+            1,
+            5,
+            32,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            39,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            1,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            37,
+            0
+          ],
+          [
+            1,
+            0,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            37
+          ]
+        ],
+        "count": 480
+      },
+      "selected": false
+    },
+    {
+      "id": "word_char",
+      "name": "Words + bigrams + character 2/3/4-grams",
+      "features": 6440,
+      "dev": {
+        "accuracy": 0.9254901960784314,
+        "macro_f1": 0.9195241689717014,
+        "per_class": [
+          {
+            "label": "transaction_charged_twice",
+            "precision": 0.9629629629629629,
+            "recall": 1.0,
+            "f1": 0.9811320754716981,
+            "support": 26
+          },
+          {
+            "label": "card_payment_not_recognised",
+            "precision": 0.9230769230769231,
+            "recall": 0.96,
+            "f1": 0.9411764705882353,
+            "support": 25
+          },
+          {
+            "label": "declined_card_payment",
+            "precision": 0.9166666666666666,
+            "recall": 0.9565217391304348,
+            "f1": 0.9361702127659574,
+            "support": 23
+          },
+          {
+            "label": "card_not_working",
+            "precision": 0.875,
+            "recall": 0.8235294117647058,
+            "f1": 0.8484848484848485,
+            "support": 17
+          },
+          {
+            "label": "pending_card_payment",
+            "precision": 0.9583333333333334,
+            "recall": 0.9583333333333334,
+            "f1": 0.9583333333333334,
+            "support": 24
+          },
+          {
+            "label": "pending_transfer",
+            "precision": 0.8571428571428571,
+            "recall": 0.8181818181818182,
+            "f1": 0.8372093023255814,
+            "support": 22
+          },
+          {
+            "label": "failed_transfer",
+            "precision": 0.9090909090909091,
+            "recall": 0.9523809523809523,
+            "f1": 0.9302325581395349,
+            "support": 21
+          },
+          {
+            "label": "transfer_not_received_by_recipient",
+            "precision": 0.8666666666666667,
+            "recall": 1.0,
+            "f1": 0.9285714285714286,
+            "support": 26
+          },
+          {
+            "label": "balance_not_updated_after_bank_transfer",
+            "precision": 0.9545454545454546,
+            "recall": 0.8076923076923077,
+            "f1": 0.875,
+            "support": 26
+          },
+          {
+            "label": "Refund_not_showing_up",
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "support": 24
+          },
+          {
+            "label": "card_swallowed",
+            "precision": 0.8888888888888888,
+            "recall": 0.8888888888888888,
+            "f1": 0.8888888888888888,
+            "support": 9
+          },
+          {
+            "label": "lost_or_stolen_card",
+            "precision": 1.0,
+            "recall": 0.8333333333333334,
+            "f1": 0.9090909090909091,
+            "support": 12
+          }
+        ],
+        "confusion_matrix": [
+          [
+            26,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            24,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            22,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            2,
+            14,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            23,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            1,
+            18,
+            2,
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            20,
+            0,
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            26,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            2,
+            0,
+            3,
+            21,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            24,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            8,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            2,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            10
+          ]
+        ],
+        "count": 255
+      },
+      "training": {
+        "best_epoch": 60,
+        "history": [
+          {
+            "epoch": 1,
+            "train_cross_entropy": 2.4849069118499756,
+            "dev_macro_f1": 0.7300169629030601
+          },
+          {
+            "epoch": 5,
+            "train_cross_entropy": 0.8453579545021057,
+            "dev_macro_f1": 0.8654274783892429
+          },
+          {
+            "epoch": 10,
+            "train_cross_entropy": 0.32713407278060913,
+            "dev_macro_f1": 0.8749867746413931
+          },
+          {
+            "epoch": 15,
+            "train_cross_entropy": 0.24033893644809723,
+            "dev_macro_f1": 0.8895088024420162
+          },
+          {
+            "epoch": 20,
+            "train_cross_entropy": 0.24188926815986633,
+            "dev_macro_f1": 0.9037121582819743
+          },
+          {
+            "epoch": 25,
+            "train_cross_entropy": 0.2648167014122009,
+            "dev_macro_f1": 0.9042052380811781
+          },
+          {
+            "epoch": 30,
+            "train_cross_entropy": 0.28201282024383545,
+            "dev_macro_f1": 0.9140582031731896
+          },
+          {
+            "epoch": 35,
+            "train_cross_entropy": 0.2857297658920288,
+            "dev_macro_f1": 0.9140582031731896
+          },
+          {
+            "epoch": 40,
+            "train_cross_entropy": 0.28101763129234314,
+            "dev_macro_f1": 0.9104273530991112
+          },
+          {
+            "epoch": 45,
+            "train_cross_entropy": 0.275631844997406,
+            "dev_macro_f1": 0.9132316239563303
+          },
+          {
+            "epoch": 50,
+            "train_cross_entropy": 0.27257469296455383,
+            "dev_macro_f1": 0.9132316239563303
+          },
+          {
+            "epoch": 55,
+            "train_cross_entropy": 0.2709294855594635,
+            "dev_macro_f1": 0.9132316239563303
+          },
+          {
+            "epoch": 60,
+            "train_cross_entropy": 0.2697769105434418,
+            "dev_macro_f1": 0.9195241689717014
+          },
+          {
+            "epoch": 65,
+            "train_cross_entropy": 0.2687315344810486,
+            "dev_macro_f1": 0.9195241689717014
+          },
+          {
+            "epoch": 70,
+            "train_cross_entropy": 0.26791641116142273,
+            "dev_macro_f1": 0.9195241689717014
+          },
+          {
+            "epoch": 75,
+            "train_cross_entropy": 0.2673256993293762,
+            "dev_macro_f1": 0.9195241689717014
+          },
+          {
+            "epoch": 80,
+            "train_cross_entropy": 0.26669445633888245,
+            "dev_macro_f1": 0.9195241689717014
+          },
+          {
+            "epoch": 85,
+            "train_cross_entropy": 0.26598167419433594,
+            "dev_macro_f1": 0.9195241689717014
+          },
+          {
+            "epoch": 90,
+            "train_cross_entropy": 0.2653070092201233,
+            "dev_macro_f1": 0.9195241689717014
+          },
+          {
+            "epoch": 95,
+            "train_cross_entropy": 0.2647266983985901,
+            "dev_macro_f1": 0.9195241689717014
+          },
+          {
+            "epoch": 100,
+            "train_cross_entropy": 0.2642805874347687,
+            "dev_macro_f1": 0.9195241689717014
+          },
+          {
+            "epoch": 105,
+            "train_cross_entropy": 0.2639301121234894,
+            "dev_macro_f1": 0.9195241689717014
+          },
+          {
+            "epoch": 110,
+            "train_cross_entropy": 0.2636507749557495,
+            "dev_macro_f1": 0.9195241689717014
+          },
+          {
+            "epoch": 115,
+            "train_cross_entropy": 0.2634362578392029,
+            "dev_macro_f1": 0.9195241689717014
+          },
+          {
+            "epoch": 120,
+            "train_cross_entropy": 0.2632441818714142,
+            "dev_macro_f1": 0.9195241689717014
+          }
+        ],
+        "l2": 0.00025,
+        "learning_rate": 0.055,
+        "optimizer": "Adam (own implementation)"
+      },
+      "train_seconds": 1.526,
+      "test": {
+        "accuracy": 0.9333333333333333,
+        "macro_f1": 0.932873605868559,
+        "per_class": [
+          {
+            "label": "transaction_charged_twice",
+            "precision": 0.9512195121951219,
+            "recall": 0.975,
+            "f1": 0.9629629629629629,
+            "support": 40
+          },
+          {
+            "label": "card_payment_not_recognised",
+            "precision": 0.9512195121951219,
+            "recall": 0.975,
+            "f1": 0.9629629629629629,
+            "support": 40
+          },
+          {
+            "label": "declined_card_payment",
+            "precision": 0.975609756097561,
+            "recall": 1.0,
+            "f1": 0.9876543209876543,
+            "support": 40
+          },
+          {
+            "label": "card_not_working",
+            "precision": 0.8888888888888888,
+            "recall": 1.0,
+            "f1": 0.9411764705882353,
+            "support": 40
+          },
+          {
+            "label": "pending_card_payment",
+            "precision": 0.9487179487179487,
+            "recall": 0.925,
+            "f1": 0.9367088607594937,
+            "support": 40
+          },
+          {
+            "label": "pending_transfer",
+            "precision": 0.8857142857142857,
+            "recall": 0.775,
+            "f1": 0.8266666666666667,
+            "support": 40
+          },
+          {
+            "label": "failed_transfer",
+            "precision": 0.8444444444444444,
+            "recall": 0.95,
+            "f1": 0.8941176470588236,
+            "support": 40
+          },
+          {
+            "label": "transfer_not_received_by_recipient",
+            "precision": 0.8974358974358975,
+            "recall": 0.875,
+            "f1": 0.8860759493670887,
+            "support": 40
+          },
+          {
+            "label": "balance_not_updated_after_bank_transfer",
+            "precision": 0.8717948717948718,
+            "recall": 0.85,
+            "f1": 0.8607594936708861,
+            "support": 40
+          },
+          {
+            "label": "Refund_not_showing_up",
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "support": 40
+          },
+          {
+            "label": "card_swallowed",
+            "precision": 1.0,
+            "recall": 0.95,
+            "f1": 0.9743589743589743,
+            "support": 40
+          },
+          {
+            "label": "lost_or_stolen_card",
+            "precision": 1.0,
+            "recall": 0.925,
+            "f1": 0.961038961038961,
+            "support": 40
+          }
+        ],
+        "confusion_matrix": [
+          [
+            39,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            39,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            40,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            40,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            1,
+            0,
+            1,
+            37,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            2,
+            31,
+            4,
+            1,
+            2,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            38,
+            0,
+            2,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            2,
+            2,
+            35,
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            2,
+            1,
+            3,
+            34,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            40,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            38,
+            0
+          ],
+          [
+            1,
+            0,
+            0,
+            2,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            37
+          ]
+        ],
+        "count": 480
+      },
+      "selected": true
+    }
+  ],
+  "implementation": "Own TF-IDF, softmax regression, Adam and macro-F1. NumPy arrays and SciPy sparse storage only.",
+  "root_cause_evaluation": "Not measured: BANKING77 has intent labels and no verified root-cause labels.",
+  "llm_evaluation": "Local LLM is used for grounded explanation, not for the reported classification scores."
+}

@@ -1,0 +1,4 @@
+-r requirements.txt
+pyarrow>=19,<27
+PyYAML>=6,<7
+pytest>=8,<10

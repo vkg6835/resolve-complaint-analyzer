@@ -1,0 +1,256 @@
+id,text,label
+B77-train-01510,What do I do if my card is stolen?,lost_or_stolen_card
+B77-train-08732,How long does it take for money to transfer?,balance_not_updated_after_bank_transfer
+B77-train-01253,I have not been able to use this card.,card_not_working
+B77-train-06078,Can you tell me when my money transfer will go through,pending_transfer
+B77-train-06275,I was removing a dollar amount from my account and now don't have access to my card.,card_swallowed
+B77-train-05857,I NEED HELP WITH MY CARD!!!!! please. It keeps getting declined when I try to use it. I have tried a few times to use it and it keeps getting rejected. I have no idea why.,declined_card_payment
+B77-train-05126,What does it mean when it says that I have a payment that is pending?,pending_card_payment
+B77-train-06262,The ATM sucked my card in.,card_swallowed
+B77-train-01541,"I want to block my card or deactivate it or something, it's been stolen and I don't want it misused. I want this handled right away.",lost_or_stolen_card
+B77-train-07431,Why was I unable to finish this transfer?,failed_transfer
+B77-train-05949,When I tried to pay in a store my card din't work,declined_card_payment
+B77-train-02746,What is the length of a transaction completion?,transfer_not_received_by_recipient
+B77-train-05228,How many days does a regular transaction take to complete?  I see a pending payment that hasn't changed in the last several days.,pending_card_payment
+B77-train-08679,Can you check if my money has reached my account since it is not showing up yet?,balance_not_updated_after_bank_transfer
+B77-train-08778,A few hours ago I made a bank transfer from my UK account but I don't see that it has arrived.   Can you check and see if all is ok please?,balance_not_updated_after_bank_transfer
+B77-train-05248,There is a payment that i made that i noticed has not gone thru yet. Can i ask why?,pending_card_payment
+B77-train-07492,Why didn't this transfer work?,failed_transfer
+B77-train-07560,why do i have a failed transfer,failed_transfer
+B77-train-05767,"I requested a refund from a seller a while ago, but when I check my statements it doesn't show up. Can you help me get my refund.",Refund_not_showing_up
+B77-train-01288,My card hasn't been working when I try to use it.,card_not_working
+B77-train-06036,I have a pending transaction,pending_transfer
+B77-train-03606,A random charge got added to my card,card_payment_not_recognised
+B77-train-05854,Can you tell me why my card keeps getting declined every time I try to use it?,declined_card_payment
+B77-train-07521,My transfer didn't work how come?,failed_transfer
+B77-train-08749,I recently transferred money to my account when will it show up?,balance_not_updated_after_bank_transfer
+B77-train-06449,"I went for a meal in Seattle and paid the bill but I think they charged me twice, the first time they swiped the card I got a notification to say the money had gone out the account but then I added a tip and I think they swiped it all again. Can you refund one of the charges?",transaction_charged_twice
+B77-train-06475,Why is there a payment showing twice?,transaction_charged_twice
+B77-train-05097,How long does it actually take for a card payment to go through? There's one stuck since a couple days already that doesn't seem to move,pending_card_payment
+B77-train-08619,"About two days ago now, I made a transfer from France but it hasn't arrived yet. Is it possible that the international transfer just takes longer?",balance_not_updated_after_bank_transfer
+B77-train-05802,How do I find the refund on my statement?,Refund_not_showing_up
+B77-train-05131,Card payment is showing as pending,pending_card_payment
+B77-train-03524,I need to freeze my card as soon as possible. I just checked my account and saw that there have been several payments that I don't recognize over the course of a few days. Can we investigate and get my money back?,card_payment_not_recognised
+B77-train-07488,"My card couldn't complete a transfer, why?",failed_transfer
+B77-train-06422,"Help, I was charged twice!",transaction_charged_twice
+B77-train-05948,I had a decline on my card. Why?,declined_card_payment
+B77-train-06072,How long would does it take for a seller to receive an EU transfer if I bought something from them and sent them the money immediately?,pending_transfer
+B77-train-06390,I think I was double charged,transaction_charged_twice
+B77-train-05887,My card couldn't pay in a shop.,declined_card_payment
+B77-train-03537,"There are charges on my card from the past few day I am pretty sure I didnt make, can you please freeze it for me? How do I get my money returned since it wasnt me?",card_payment_not_recognised
+B77-train-02706,I do not know where the transaction is.,transfer_not_received_by_recipient
+B77-train-07459,My transfer failed.  Help!,failed_transfer
+B77-train-05977,How come my card payment has been declined?,declined_card_payment
+B77-train-06451,I noticed a duplicate charge on my statement.,transaction_charged_twice
+B77-train-08673,I made a transfer but my balance hasn't been updated,balance_not_updated_after_bank_transfer
+B77-train-05937,It seems like my card payment didn't work.,declined_card_payment
+B77-train-03644,I need to cancel my card.  There are a few charges from a couple days ago that I didn't make.  Can I get credit for these charges?,card_payment_not_recognised
+B77-train-01496,Can you send me a new card and block my current one. I'm in Spain and my wallet was stolen.,lost_or_stolen_card
+B77-train-06008,My payment shows that it is pending will I be charged more money?,pending_transfer
+B77-train-05882,is there a reason that my payment didnt go through,declined_card_payment
+B77-train-02785,Why hasn't my son received the transfer I sent to him earlier?,transfer_not_received_by_recipient
+B77-train-01279,My card won't work at all for anything.,card_not_working
+B77-train-07445,I tried to make a transfer but it failed. will you tell me why?,failed_transfer
+B77-train-06074,How long does it take for pending transfer transactions to post?,pending_transfer
+B77-train-05194,I got some items this morning but the payment says pending,pending_card_payment
+B77-train-08726,My transfer is pending too long.,balance_not_updated_after_bank_transfer
+B77-train-06468,Can you explain the various transaction times shown on my statement?,transaction_charged_twice
+B77-train-03527,I am seeing in the App a payment that its not mine,card_payment_not_recognised
+B77-train-05850,"I was out today looking forward to paying with my new card, but the payment just kept getting declined. This is really sad, what's going on?",declined_card_payment
+B77-train-07511,"This morning, I tried to send money to my friends several times but each time the transfer fails.  Why does it keep failing?  The transfer gets rejected but I do not know what is causing it to be rejected.",failed_transfer
+B77-train-06010,Tell me why my transfer is pending.,pending_transfer
+B77-train-05831,When will I be able to see my refund?,Refund_not_showing_up
+B77-train-05798,A refund for a recent return has not arrived on my card.,Refund_not_showing_up
+B77-train-01530,My card has been lost / stolen,lost_or_stolen_card
+B77-train-02753,Why is it taking so long for a transfer to complete!,transfer_not_received_by_recipient
+B77-train-06037,How long is the wait for a money transfer to post?,pending_transfer
+B77-train-06011,How long will my transfer be pending for?,pending_transfer
+B77-train-02734,Why hasn't my transaction arrived?,transfer_not_received_by_recipient
+B77-train-03565,There is a strange payment on my card.,card_payment_not_recognised
+B77-train-08713,Why hasn't my money transfer showed up yet?,balance_not_updated_after_bank_transfer
+B77-train-02756,How long do I have  to wait for my transaction to be completed?,transfer_not_received_by_recipient
+B77-train-01526,I seem to have lost my card.,lost_or_stolen_card
+B77-train-07514,My transfer is failing when I try to do it.,failed_transfer
+B77-train-05230,My payment's stuck on pending.,pending_card_payment
+B77-train-05094,The purchase I made is still pending.,pending_card_payment
+B77-train-05187,Why is my card payment still pending? It should have gone through already.,pending_card_payment
+B77-train-06279,I cannot get my card out of the ATM.,card_swallowed
+B77-train-06046,"I've been waiting for a pending transfer to go through for a while now, and don't see any reason why I've been waiting this long.  I know that I have the correct account details, so that isn't the problem.",pending_transfer
+B77-train-03519,"Hi, there is a suspicious payment from my card. I definitely do not know who this is or who could have made this payment.",card_payment_not_recognised
+B77-train-06249,What do I do if I can't get my card out of the ATM?,card_swallowed
+B77-train-02703,"I have done a transfer within the country the day before yesterday, but it's still not there yet. Can you please check what's going on with that, the account number is the right one, I've checked that several times already.",transfer_not_received_by_recipient
+B77-train-05167,What does a 'pending payment' mean?,pending_card_payment
+B77-train-01304,What's wrong with my card? The clerk at the grocery store said it was declined.,card_not_working
+B77-train-01245,I can't use my card because it is not working.,card_not_working
+B77-train-06246,What do I do now my credit card has been swallowed by the ATM?,card_swallowed
+B77-train-05176,pending transaction?,pending_card_payment
+B77-train-01270,"My Netflix subscription says that there is an issue with my card information, but I thought everything was fine. Why would it be declined?",card_not_working
+B77-train-03586,I don't think I made this payment that is showing up,card_payment_not_recognised
+B77-train-06086,There has been a transfer pending in my account and I wanted to know how long it is going to take to go  through.,pending_transfer
+B77-train-05910,My card would not work at a shop.,declined_card_payment
+B77-train-07479,Is there a reason my transfer failed?,failed_transfer
+B77-train-06302,atm ate my card,card_swallowed
+B77-train-01305,What should I do if I can't use my card?,card_not_working
+B77-train-08695,Where is the transfer that I did?,balance_not_updated_after_bank_transfer
+B77-train-06043,How long will the transfer take?,pending_transfer
+B77-train-03502,my statement contains an unknown payment,card_payment_not_recognised
+B77-train-03517,Payment I didn't do.,card_payment_not_recognised
+B77-train-02757,I did a money transaction and the recipient doesn't see it,transfer_not_received_by_recipient
+B77-train-07471,"Hello.  I ran into a problem with a transfer this morning.  I was trying to send money to some friends but when I tried to send it, the transfer failed.  I don't know what is causing the transfer to be rejected.  Please let me know what is causing the problem.  Thanks.",failed_transfer
+B77-train-01316,Can you tell me whats going on with my card it seems to be not working?,card_not_working
+B77-train-05825,I should have a refund in my statement but I can't see it,Refund_not_showing_up
+B77-train-01289,My physical card is not working,card_not_working
+B77-train-05729,"Hurry and refund me, I am waiting",Refund_not_showing_up
+B77-train-06133,Can you tell me when the transfer will be completed?,pending_transfer
+B77-train-06346,Transaction showing up many times.,transaction_charged_twice
+B77-train-05969,"I know there's money in my account, why did my account decline me?",declined_card_payment
+B77-train-08686,How long do I need to wait to see an update after I make a bank transfer?,balance_not_updated_after_bank_transfer
+B77-train-02811,My transaction has not been received. When are you going to process it?,transfer_not_received_by_recipient
+B77-train-01481,What's the phone number to freeze a card?,lost_or_stolen_card
+B77-train-06122,I have a pending money transfer,pending_transfer
+B77-train-05116,Is there a reason my payments are pending?,pending_card_payment
+B77-train-06345,There is a transaction showing up several times.,transaction_charged_twice
+B77-train-02848,Could you please help me?  I made my rent payment and have double checked that I sent it to the right account.  The person receiving it says he has not received it but it shows complete on my side.,transfer_not_received_by_recipient
+B77-train-05966,My card payment has failed.,declined_card_payment
+B77-train-02813,My cash transaction isn't showing on my receipt,transfer_not_received_by_recipient
+B77-train-03560,I have a payment that I didn't make.,card_payment_not_recognised
+B77-train-03611,There's a card payment I didn't make,card_payment_not_recognised
+B77-train-05951,My payment was declined,declined_card_payment
+B77-train-02780,"I made a transfer for my rent payment about 2 days ago, but my landlord hasn't received it yet. It shows as done on my  side, and I've double check all account numbers and they are correct. Can you verify that the transaction was actually made?",transfer_not_received_by_recipient
+B77-train-01511,My card is stolen.  Help!,lost_or_stolen_card
+B77-train-01520,Someone stole my wallet with my card in it while vacationing in Spain. I really need my card blocked and a new one ordered.,lost_or_stolen_card
+B77-train-05154,I'm still waiting on a payment,pending_card_payment
+B77-train-08717,I'm wondering how long it takes for my money to get to me after a bank transfer.,balance_not_updated_after_bank_transfer
+B77-train-08736,I transferred some money but it hasn't arrived yet,balance_not_updated_after_bank_transfer
+B77-train-07497,What went wrong when I tried to do my transfer?,failed_transfer
+B77-train-05739,The refund on my account hasn't shown up,Refund_not_showing_up
+B77-train-05965,My card payment won't work.,declined_card_payment
+B77-train-07460,My transfer failed to process correctly. Is there a reason this would happen?,failed_transfer
+B77-train-03498,I do not recognise the card payment.,card_payment_not_recognised
+B77-train-05815,"I'm supposed to be getting a refund but it hasn't shown up, now what?",Refund_not_showing_up
+B77-train-07517,I tried to transfer money but it didn't go through,failed_transfer
+B77-train-06260,The ATM won't give me my card back. I need it back now!,card_swallowed
+B77-train-05691,I keep checking my statements but nothing shows up. I requested a refund a long time ago but seems it's not reaching my account for some reason. Would you please help me get the money back from the seller.,Refund_not_showing_up
+B77-train-02815,I did a money transaction and dont have a receipt,transfer_not_received_by_recipient
+B77-train-05781,"Hello. Please, would you tell me if you have or have not received funds for a refund that I recently requested for a big purchase? I've contacted the merchant, but I can't tell that they have taken any action on it.",Refund_not_showing_up
+B77-train-01488,A fee shouldn't apply to me if my card was stolen.,lost_or_stolen_card
+B77-train-06006,What am I supposed to do if the funds haven't show up from a transfer completed this morning?,pending_transfer
+B77-train-06328,I have a transaction showing multiple times.,transaction_charged_twice
+B77-train-06095,Why does my transfer still say it is pending?,pending_transfer
+B77-train-02868,How long do transfers take? I sent money to a friend who needs it urgently. It's been hours and has not gone through.,transfer_not_received_by_recipient
+B77-train-07507,What caused my transfer to fail?,failed_transfer
+B77-train-06340,I have been charged twice this week for a couple of things on my card. Can you please check this out for me and return the double charged items back?,transaction_charged_twice
+B77-train-05140,Why hasn't my card payment cleared yet?,pending_card_payment
+B77-train-03642,I have a charge I did not make.,card_payment_not_recognised
+B77-train-03513,A payment in my account was made by someone I don't know,card_payment_not_recognised
+B77-train-06455,There are duplicate transactions on my account,transaction_charged_twice
+B77-train-08644,What's the time frame normally for a UK account transfer? I just made one and it's not showing up anywhere. I want to be sure that everything is good.,balance_not_updated_after_bank_transfer
+B77-train-05243,My purchases from this morning still have pending payments.,pending_card_payment
+B77-train-08647,Balance hasn't been updated following a bank transfer,balance_not_updated_after_bank_transfer
+B77-train-03596,My app is displaying a payment I didn't make,card_payment_not_recognised
+B77-train-06367,Duplicate transactions appear on my account,transaction_charged_twice
+B77-train-05695,Where is my recent refund in the my statement?,Refund_not_showing_up
+B77-train-08764,I transferred some money a couple days ago but haven't received it yet. How long should I expect to wait?,balance_not_updated_after_bank_transfer
+B77-train-05891,My card payment didn't go through.,declined_card_payment
+B77-train-06054,I did a transfer but its still pending,pending_transfer
+B77-train-03649,There is a card payment that I'm not recognizing.,card_payment_not_recognised
+B77-train-06266,what do I need to do if the ATM kept my card?,card_swallowed
+B77-train-05778,"I was suppose to be getting a refund for something I purchased a while ago, but It still hasnt been applied to my account. When will I get my money back?",Refund_not_showing_up
+B77-train-08654,How long do bank transfers take to clear,balance_not_updated_after_bank_transfer
+B77-train-05199,I have a payment that hasn't went through yet.,pending_card_payment
+B77-train-01525,What is the first step that I should take after my card has been stolen?,lost_or_stolen_card
+B77-train-05916,My card failed to work when I was shopping in a store,declined_card_payment
+B77-train-01281,Why doesn't my card work for any transactions?,card_not_working
+B77-train-05684,They said I would get a refund but I don't see it on my statement.,Refund_not_showing_up
+B77-train-08730,Why hasn't the money I transferred into my account shown up yet?,balance_not_updated_after_bank_transfer
+B77-train-01354,What do I do if my card is not working?,card_not_working
+B77-train-05717,I was supposed to get a refund but it is not showing up on my card,Refund_not_showing_up
+B77-train-05782,Did I not get my refund? I don't see it.,Refund_not_showing_up
+B77-train-01301,How do I re-order a damaged card?,card_not_working
+B77-train-03610,I have just read my statement and there is a payment I don't recognise.,card_payment_not_recognised
+B77-train-08705,I am wondering if International Transfers take longer. I a made a transfer from France two days ago and believed it would be here already. Please let me know when I will get it!,balance_not_updated_after_bank_transfer
+B77-train-05805,"As advised by you, i requested seller to refund my money. A week has passed but i haven't got any update from seller. Please track the refund with the seller.",Refund_not_showing_up
+B77-train-01341,How can I get my card to work?,card_not_working
+B77-train-06469,I was charged too many times for one transaction.,transaction_charged_twice
+B77-train-05183,My card payment has been on pending forever. What is the problem? It should have gone through at some time by now.,pending_card_payment
+B77-train-03581,I have a card payment I didn't make,card_payment_not_recognised
+B77-train-06124,For what reason is my transfer still pending now?,pending_transfer
+B77-train-06459,"Looks like my card payment was made twice by mistake. I paid at the store earlier which rejected once, second time it worked. App stays at pending for one of the payments. Can you please remove one of them as it's wrong and clearly was declined?",transaction_charged_twice
+B77-train-07555,"I tried and tried, but I could not complete my transfer. Tell me what is wrong.",failed_transfer
+B77-train-03511,I'm not sure where this charge came from.,card_payment_not_recognised
+B77-train-06433,Hi. I noticed I have a duplicate charge which I have not made twice. Who should I talk to take care of this?,transaction_charged_twice
+B77-train-07530,Why was I not able to complete my transfer?,failed_transfer
+B77-train-06349,I have duplicate charges for the same transaction,transaction_charged_twice
+B77-train-06448,My bill shows the same charge more than once,transaction_charged_twice
+B77-train-06016,I'm confused as to why my transfer is still listed as pending on the website.,pending_transfer
+B77-train-02821,My transfer didn't arrive to the recipient,transfer_not_received_by_recipient
+B77-train-02858,Why isn't the transfer I made to a friend showing?,transfer_not_received_by_recipient
+B77-train-03510,What is this strange payment in my account?,card_payment_not_recognised
+B77-train-05139,A payment is pending,pending_card_payment
+B77-train-05736,My account isn't showing the refund,Refund_not_showing_up
+B77-train-02827,"|I moved out of my old house two weeks ago and cancelled my direct debit to my old landlord, this direct debit was working fine.  Now I've moved in to a new place and set up a transfer to a new landlord but it's not reached her yet, can you check it please?",transfer_not_received_by_recipient
+B77-train-06406,I was charged multiple times for one purchase,transaction_charged_twice
+B77-train-06417,I noticed that my card was charged more than once for one thing.,transaction_charged_twice
+B77-train-06099,how long will it take for my transfer to stop pending,pending_transfer
+B77-train-05677,I requested a refund but am unable to see it in my account. Why is that?,Refund_not_showing_up
+B77-train-07556,I'm getting an error when trying to make a payment. I want to purchase a flat but my mortgage payment needs to go through. Can you help me?,failed_transfer
+B77-train-05754,Why is my refund missing in my statement?,Refund_not_showing_up
+B77-train-05202,I was wondering how long does it take for a payment to go thru? It seems my last payment is stuck and hasn't moved.,pending_card_payment
+B77-train-08776,Why wasn't my bank balance updated?,balance_not_updated_after_bank_transfer
+B77-train-01319,"Can you help me with my card, I think it's broke.",card_not_working
+B77-train-03555,why do I have an unknown payment?,card_payment_not_recognised
+B77-train-06352,There are two of the same charges on my account.,transaction_charged_twice
+B77-train-02772,What happens when I money transaction doesn't show up on the receiving side?,transfer_not_received_by_recipient
+B77-train-05233,How long does it take for a payment to change from pending?,pending_card_payment
+B77-train-08733,Where's the money I transferred into my account?,balance_not_updated_after_bank_transfer
+B77-train-06359,I have a payment that shows twice,transaction_charged_twice
+B77-train-08698,The transfer on my account is not showing up.,balance_not_updated_after_bank_transfer
+B77-train-01246,I can't seem to be able to use my card,card_not_working
+B77-train-05817,How long does it take for a refund to appear?,Refund_not_showing_up
+B77-train-06068,I have a transfer that is still pending.,pending_transfer
+B77-train-08718,"Hi. About two hours ago I made a transfer from my bank which is in the UK, but I don't see it yet! Would you check what's going on with it, please?",balance_not_updated_after_bank_transfer
+B77-train-06347,"Looks like my card payment was made twice by mistake. I went to pay at the store earlier which rejected once, second time it worked. App is on pending for one of the payments. Can you please remove one of them as it's wrong and clearly was declined?",transaction_charged_twice
+B77-train-01249,How do I fix a broken card?,card_not_working
+B77-train-03603,I think that there is a payment on my card that I did not authorize.  I don't recognize the name attached to the transaction.,card_payment_not_recognised
+B77-train-02707,I transferred money but the recipient does not see the funds in their account?,transfer_not_received_by_recipient
+B77-train-02730,Why hasn't the transaction I did to my friend arrive yet?,transfer_not_received_by_recipient
+B77-train-05245,"I used my card to make a payment a while ago and its still pending, Why is it taking so long?",pending_card_payment
+B77-train-06393,What do I do if I have been charged twice?,transaction_charged_twice
+B77-train-08675,When will I see an updated balance after a transfer?,balance_not_updated_after_bank_transfer
+B77-train-05210,I don't know what a pending payment is.,pending_card_payment
+B77-train-07551,I am trying to transfer money and something is going wrong.,failed_transfer
+B77-train-01518,What do I do if my card has been lost or stolen?,lost_or_stolen_card
+B77-train-06407,Why have I been charged more than once for the same transaction?,transaction_charged_twice
+B77-train-08638,How can I fix my bank transfer to show up on my bank account?,balance_not_updated_after_bank_transfer
+B77-train-05757,Why is the refund not on my statement?,Refund_not_showing_up
+B77-train-02833,Why doesn't the person I sent money to see that transfer yet?,transfer_not_received_by_recipient
+B77-train-07451,"Hi, I'm in progress of purchasing a flat and am trying to make to make a payment.  An error is appearing, and I need assistance.",failed_transfer
+B77-train-02704,My money transaction hasn't arrived.,transfer_not_received_by_recipient
+B77-train-02817,Why hasn't my friend's transaction arrive yet?,transfer_not_received_by_recipient
+B77-train-06123,"What does it mean when a transfer is ""pending""?",pending_transfer
+B77-train-05922,Why do you keep declining my payment? I tried several times already with this card and it is just not working.,declined_card_payment
+B77-train-05906,Why has my card declined,declined_card_payment
+B77-train-07536,Why has my payment not transferred?,failed_transfer
+B77-train-05156,I am waiting for a payment to be processed,pending_card_payment
+B77-train-03585,There is a vendor name I don't recognize on a payment from my account. I don't think I made this payment.,card_payment_not_recognised
+B77-train-01284,What do I do if the machine rejects my card?,card_not_working
+B77-train-05780,what is the status of my refund,Refund_not_showing_up
+B77-train-05928,I don't understand why my payment was declined. I thought everything was ok.,declined_card_payment
+B77-train-05959,My card did not go through in a shop,declined_card_payment
+B77-train-06070,My transfer has been pending for a long time now. I already double checked my account info and it is correct. Why is it taking so long in 2018 to transfer money?,pending_transfer
+B77-train-05740,I'm supposed to have a refund but it isn't there,Refund_not_showing_up
+B77-train-02708,why hasn't a transaction to a friend cleared yet?,transfer_not_received_by_recipient
+B77-train-05840,I could not use my card in a store.,declined_card_payment
+B77-train-05890,Why didn't my card payment work?,declined_card_payment
+B77-train-05786,I cannot view the refunded amount in my account.,Refund_not_showing_up
+B77-train-02783,Why hasn't my friend received the transaction?,transfer_not_received_by_recipient
+B77-train-08700,I haven't yet received money that I transferred,balance_not_updated_after_bank_transfer
+B77-train-01546,I think my wallet fell out on the Tube today! I realized as soon as I got to my desk. How do I cut off the card?,lost_or_stolen_card
+B77-train-06411,"Hello, I was just went through my recent transaction on my bank account and I just noticed that I was charged twice at a place that ate at this past week. Can I get that second transaction removed from my account?",transaction_charged_twice
+B77-train-03634,I need help with some transactions in my account that I dont recognize or remember purchasing. Im not sure if the name is just different or what. Should my card be put on hold while the issue gets figured out to be safe or is it ok?,card_payment_not_recognised
+B77-train-06480,Hello. I just noticed I was charged two times for a restaurant I visited this week. Can you reverse the additional charge?,transaction_charged_twice
+B77-train-06276,A Bank ATM did not give my card back. What do I do now?,card_swallowed
+B77-train-05925,"Hi, Today i have tried to make payment by my new card, but payment got declined many times. I am very disappointed, please look into this.",declined_card_payment
+B77-train-02737,I need to check status as my friend hasn't got money I sent.,transfer_not_received_by_recipient
+B77-train-08737,I made a transfer a couple hours ago but my balance has not been updated. Why is this? Shouldnt this be instant?,balance_not_updated_after_bank_transfer
+B77-train-05200,I made a payment but it's still pending,pending_card_payment
